@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Navigation from './components/navigation'
 import HomeContent from './components/home'
+import About from './components/about'
+import Footer from './components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -29,9 +29,9 @@ const Home: NextPage = () => {
           <Navigation></Navigation>
         </nav>
         <HomeContent></HomeContent>
+        <About></About>
       </main>
-
-      <footer>&copy; TheDesertWhale 2022</footer>
+      <Footer></Footer>
     </div>
   );
 }
