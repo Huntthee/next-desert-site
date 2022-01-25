@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Signika+Negative:wght@300&family=Signika:wght@700&display=swap");
+h1, h2 {
+  font-family: 'Signika', sans-serif;
+  text-transform: uppercase;
+  color: #e5234b;
+}
+
+h3, h4 {
+  font-family: 'Signika Negative', sans-serif;
+  color: #000000;
+}
+
+p, li {
+  font-family: 'Signika Negative', sans-serif;
+}
+
 a {
   text-decoration: none;
   font-family: 'Signika', sans-serif;

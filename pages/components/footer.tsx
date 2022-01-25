@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
     <>
-      <footer>&copy; TheDesertWhale 2022</footer>
+      <footer>
+        <p>&copy; TheDesertWhale 2022</p>
+      </footer>
     </>
   );
 }
