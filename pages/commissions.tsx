@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image';
 import Navigation from './components/navigation';
+import Footer from './components/footer';
 
 export default function Commissions() {
   return (
@@ -164,6 +165,8 @@ export default function Commissions() {
       <Link href="/">
         <a>Home</a>
       </Link>
+
+      <Footer></Footer>
     </>
   );
 }

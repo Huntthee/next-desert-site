@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "./components/footer";
 import Navigation from "./components/navigation";
 
 export default function Waitlist() {
@@ -11,6 +12,7 @@ export default function Waitlist() {
       <Link href="/">
         <a>Home</a>
       </Link>
+      <Footer></Footer>
     </>
   );
 }
