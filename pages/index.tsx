@@ -23,7 +23,6 @@ const Home: NextPage = () => {
           crossOrigin="anonymous"
         ></link>
       </Head>
-
       <main className={styles.homepage}>
         <nav>
           <Navigation></Navigation>
