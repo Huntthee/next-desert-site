@@ -24,7 +24,7 @@ export default function WaitlistContent() {
 }
 
 // Table for clients Waiting
-let waitTable = '<table>';
+let waitTable: string = '<table>';
 waitTable += '<tr><th>Name</th></tr>'
 
 waiting.forEach(function(item){
@@ -38,7 +38,7 @@ waiting.forEach(function(item){
 waitTable += '</table>';
 
 // Table for works in progress
-let workTable = '<table>';
+let workTable: string = '<table>';
 workTable += '<tr><th>Name</th></tr>'
 
 working.forEach(function(item){
@@ -52,7 +52,7 @@ working.forEach(function(item){
 workTable += '</table>';
 
 // Table for completed works
-let doneTable = '<table>';
+let doneTable: string = '<table>';
 doneTable += '<tr><th>Name</th><th>Commission</th></tr>'
 
 complete.forEach(function(item){
@@ -67,7 +67,7 @@ complete.forEach(function(item){
 doneTable += '</table>';
 
 if (typeof window === 'object') {
-  document.getElementById('waiting').innerHTML = waitTable;
-  document.getElementById("working").innerHTML = workTable;
-  document.getElementById("complete").innerHTML = doneTable;
+  document.getElementById('waiting')!.innerHTML = waitTable;
+  document.getElementById("working")!.innerHTML = workTable;
+  document.getElementById("complete")!.innerHTML = doneTable;
 }
