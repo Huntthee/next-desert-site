@@ -37,6 +37,12 @@ waiting.forEach(function(item){
 
 waitTable += '</table>';
 
+if (typeof window === "object") {
+  document.getElementById("waiting").innerHTML = waitTable;
+}
+
+/*
+
 // Table for works in progress
 let workTable: string = '<table>';
 workTable += '<tr><th>Name</th></tr>'
@@ -50,6 +56,8 @@ working.forEach(function(item){
 });
 
 workTable += '</table>';
+
+document.getElementById("working")!.innerHTML = workTable;
 
 // Table for completed works
 let doneTable: string = '<table>';
@@ -66,8 +74,7 @@ complete.forEach(function(item){
 
 doneTable += '</table>';
 
-if (typeof window === 'object') {
-  document.getElementById('waiting')!.innerHTML = waitTable;
-  document.getElementById("working")!.innerHTML = workTable;
-  document.getElementById("complete")!.innerHTML = doneTable;
-}
+document.getElementById("complete")!.innerHTML = doneTable;
+
+*/
+
