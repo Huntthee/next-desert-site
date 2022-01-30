@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Navigation from './components/navigation'
 import HomeContent from './components/home'
 import About from './components/about'
@@ -8,7 +7,7 @@ import Footer from './components/footer'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>TheDesertWhale - Art & Commissions</title>
         <meta
@@ -23,8 +22,8 @@ const Home: NextPage = () => {
           crossOrigin="anonymous"
         ></link>
       </Head>
-      <main className={styles.homepage}>
-        <nav>
+      <main>
+        <nav className="flex text-torange">
           <Navigation></Navigation>
         </nav>
         <HomeContent></HomeContent>

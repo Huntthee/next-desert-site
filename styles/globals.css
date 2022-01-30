@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Signika+Negative:wght@300&family=Signika:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  font-family: 'Signika Negative';
+  font-weight: bold;
+}

@@ -4,7 +4,7 @@ export default function HomeContent() {
   return (
     <>
       <section className="flex-column text-center">
-        <h1 className="mt-1 text-lg font-semibold">DesertWhale</h1>
+        <h1 className="text-6xl font-primary">DesertWhale</h1>
         <div>
           <p>Commission Status:</p>
         </div>

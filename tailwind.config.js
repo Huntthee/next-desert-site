@@ -4,6 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -16,6 +21,18 @@ module.exports = {
       'white': '#ffffff',
       'black': '#000000',
       'shade': '#d6d4ce',
+    },
+    spacing: {
+      '1': '8px',
+      '2': '12px',
+      '3': '16px',
+      '4': '24px',
+      '5': '32px',
+      '6': '48px',
+    },
+    fontFamily: {
+      primary: ['Signika', 'sans-serif'],
+      secondary: ['"Signika Negative"', 'sans-serif']
     },
     extend: {},
   },
