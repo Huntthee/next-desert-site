@@ -1,4 +1,5 @@
-export const waiting = [
+// import { waiting, working, complete } from "./../public/scripts/waitlist";
+const waiting = [
   {
     name: "HeyCallMeClay",
   },
@@ -29,7 +30,7 @@ export const waiting = [
     name: "Overrrrit_",
   },
 ];
-export const working = [
+const working = [
   {
     name: "SilverKestrelStudios",
   },
@@ -41,7 +42,7 @@ export const working = [
   },
 ];
 
-export const complete = [
+const complete = [
   {
     name: "Chester_Dwight",
     work: "Three Emotes for Twitch",
@@ -316,3 +317,54 @@ export const complete = [
     work: "Stream Panels & Banners.",
   },
 ];
+
+// Table for clients Waiting
+let waitTable = "<table>";
+waitTable += "<tr><th>Name</th></tr>";
+
+waiting.forEach(function (item) {
+  waitTable += `
+  <tr>
+  <td>${item.name}</td>
+  </tr>
+  `;
+});
+
+waitTable += "</table>";
+
+if (typeof window === "object") {
+  document.getElementById("waiting").innerHTML = waitTable;
+}
+
+// Table for works in progress
+let workTable = "<table>";
+workTable += "<tr><th>Name</th></tr>";
+
+working.forEach(function (item) {
+  workTable += `
+  <tr>
+  <td>${item.name}</td>
+  </tr>
+  `;
+});
+
+workTable += "</table>";
+
+document.getElementById("working").innerHTML = workTable;
+
+// Table for completed works
+let doneTable = "<table>";
+doneTable += "<tr><th>Name</th><th>Commission</th></tr>";
+
+complete.forEach(function (item) {
+  doneTable += `
+  <tr>
+  <td>${item.name}</td>
+  <td>${item.work}</td>
+  </tr>
+  `;
+});
+
+doneTable += "</table>";
+
+document.getElementById("complete").innerHTML = doneTable;

@@ -1,5 +1,3 @@
-import { waiting, working, complete } from "../../public/scripts/waitlist";
-
 export default function WaitlistContent() {
   return (
     <>
@@ -22,59 +20,3 @@ export default function WaitlistContent() {
     </>
   );
 }
-
-// Table for clients Waiting
-let waitTable: string = '<table>';
-waitTable += '<tr><th>Name</th></tr>'
-
-waiting.forEach(function(item){
-  waitTable += `
-  <tr>
-  <td>${item.name}</td>
-  </tr>
-  `;
-});
-
-waitTable += '</table>';
-
-if (typeof window === "object") {
-  document.getElementById("waiting").innerHTML = waitTable;
-}
-
-/*
-
-// Table for works in progress
-let workTable: string = '<table>';
-workTable += '<tr><th>Name</th></tr>'
-
-working.forEach(function(item){
-  workTable += `
-  <tr>
-  <td>${item.name}</td>
-  </tr>
-  `;
-});
-
-workTable += '</table>';
-
-document.getElementById("working")!.innerHTML = workTable;
-
-// Table for completed works
-let doneTable: string = '<table>';
-doneTable += '<tr><th>Name</th><th>Commission</th></tr>'
-
-complete.forEach(function(item){
-  doneTable += `
-  <tr>
-  <td>${item.name}</td>
-  <td>${item.work}</td>
-  </tr>
-  `;
-});
-
-doneTable += '</table>';
-
-document.getElementById("complete")!.innerHTML = doneTable;
-
-*/
-
