@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function HomeContent() {
   return (
     <>
-      <section>
-        <h1>DesertWhale</h1>
+      <section className="flex-column text-center">
+        <h1 className="mt-1 text-lg font-semibold">DesertWhale</h1>
         <div>
           <p>Commission Status:</p>
         </div>
