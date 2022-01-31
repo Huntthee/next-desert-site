@@ -16,7 +16,7 @@ export default function Waitlist() {
         <a>Home</a>
       </Link>
       <Footer></Footer>
-      <Script id="scripts" src="/scripts/scripts.js" strategy="lazyOnload" onError={(e) => {
+      <Script id="scripts" src="/scripts/waitlist.js" strategy="lazyOnload" onError={(e) => {
         console.error('Script failed to load', e)
       }}/>
     </>

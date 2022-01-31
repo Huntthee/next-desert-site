@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           name="description"
           content="Digital Artwork for Streaming, Social Media, Websites, Personal Use & More!"
         />
-        <link rel="icon" href="/lil-whale.png" />
+        <link rel="icon" href="/images/lil-whale.png" />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
