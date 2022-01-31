@@ -318,7 +318,7 @@ const complete = [
     work: "Stream Panels & Banners.",
   },
 ];
-
+/*
 // Table for clients Waiting
 let waitTable = "<table>";
 waitTable += "<tr><th>Name</th></tr>";
@@ -332,6 +332,7 @@ waiting.forEach(function (item) {
 });
 
 waitTable += "</table>";
+*/
 
 // Table for works in progress
 let workTable = "<table>";
@@ -362,6 +363,6 @@ complete.forEach(function (item) {
 
 doneTable += "</table>";
 
-document.getElementById("waiting").innerHTML = waitTable;
+// document.getElementById("waiting").innerHTML = waitTable;
 document.getElementById("working").innerHTML = workTable;
 document.getElementById("complete").innerHTML = doneTable;
