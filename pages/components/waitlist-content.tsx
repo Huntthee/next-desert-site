@@ -1,12 +1,10 @@
-import Waiting from "./waiting";
-
 export default function WaitlistContent() {
   return (
     <>
       <section>
         <article>
           <h3>Waiting</h3>
-          <Waiting/>
+          <div id="waiting"></div>
         </article>
 
         <article>
