@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         ></link>
       </Head>
       <main>
-        <nav className="flex text-torange">
+        <nav>
           <Navigation></Navigation>
         </nav>
         <HomeContent></HomeContent>
