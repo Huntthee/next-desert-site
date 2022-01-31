@@ -1,4 +1,4 @@
-// import { waiting, working, complete } from "./../public/scripts/waitlist";
+// 
 const waiting = [
   {
     name: "HeyCallMeClay",
@@ -30,6 +30,7 @@ const waiting = [
     name: "Overrrrit_",
   },
 ];
+
 const working = [
   {
     name: "SilverKestrelStudios",

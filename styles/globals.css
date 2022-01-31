@@ -4,7 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+nav div a {
+  padding: 5px;
+  margin: 0 1px 0 1px;
+}
+
 a {
   font-family: 'Signika Negative';
   font-weight: bold;
+}
+
+p {
+  font-family: 'Signika Negative'
 }

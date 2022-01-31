@@ -29,10 +29,13 @@ module.exports = {
       '4': '24px',
       '5': '32px',
       '6': '48px',
+      '7': '64px',
+      '8': '124px'
     },
     fontFamily: {
       primary: ['Signika', 'sans-serif'],
-      secondary: ['"Signika Negative"', 'sans-serif']
+      secondary: ['"Signika Negative"', 'sans-serif'],
+      special: ['"Nanum Pen Script"', 'serif']
     },
     extend: {},
   },
