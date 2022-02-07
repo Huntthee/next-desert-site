@@ -68,8 +68,8 @@ export default function HomeContent() {
             <i className="fas fa-tshirt text-3xl text-amaranth"></i>
           </a>
         </div>
-        <div>
-          <p>More about me!</p>
+        <div className="my-6">
+          <p className="font-bold">More about me!</p>
           <i className="fas fa-arrow-down"></i>
         </div>
       </section>

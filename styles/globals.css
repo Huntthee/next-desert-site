@@ -17,3 +17,7 @@ a {
 p {
   font-family: 'Signika Negative'
 }
+
+li {
+  padding-bottom: 8px;
+}
