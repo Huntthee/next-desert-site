@@ -1,11 +1,11 @@
 export default function About() {
   return (
     <>
-      <section id="about-section">
+      <section className="text-center px-3">
         <h2>About Desert</h2>
         <p>Hi, my name is Jess!</p>
         <p>I have been certified in <strong>Adobe Illustrator</strong>, <strong>Photoshop</strong> and <strong>InDesign</strong> since 2015; Currently pursuing freelance graphic design, commissions and streaming on Twitch.<br/>I am also skilled in traditional and digital art and painting, and am currently experimenting with new and alternative programs to create stream elements, overlays, emote designs and animations.</p>
-        <ul>
+        <ul className="text-left">
           <li>Skills:</li>
           <li>Graduated from the Graphic Communications and Print Technology program at SAIT.</li>
           <li>Certified in Adobe Illustrator, Photoshop and InDesign.</li>
