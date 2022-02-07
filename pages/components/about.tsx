@@ -1,5 +1,5 @@
 import Image from "next/image"
-import whale from "../../public/lil-whale.png"
+import whale from "../../public/images/lil-whale.png"
 
 export default function About() {
   return (
