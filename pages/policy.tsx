@@ -9,11 +9,10 @@ export default function Policy() {
       <nav>
         <Navigation></Navigation>
       </nav>
-      <h1>Policy</h1>
       <PolicyContent></PolicyContent>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
+      <nav>
+        <Navigation></Navigation>
+      </nav>
       <Footer></Footer>
     </>
   );
