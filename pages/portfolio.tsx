@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Footer from './components/footer';
 import Navigation from './components/navigation'
 import Script from 'next/script';
