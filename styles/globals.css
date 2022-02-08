@@ -22,6 +22,10 @@ li {
   padding-bottom: 8px;
 }
 
+article {
+  margin: 26px 0 46px 0;
+}
+
 .image-container {
   margin-top: 50px;
 }
