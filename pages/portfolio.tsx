@@ -9,11 +9,14 @@ export default function Portfolio() {
       <nav>
         <Navigation></Navigation>
       </nav>
-      <h1>Portfolio</h1>
-      <section id="portfolio-gallery"></section>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
+      <h1 className="text-center font-bold text-2xl mt-4">Portfolio</h1>
+      <section id="portfolio-gallery" className="text-center p-2"></section>
+      <p className="text-center my-5">
+        If content fails to load, refresh the page.
+      </p>
+      <nav>
+        <Navigation></Navigation>
+      </nav>
       <Footer></Footer>
       <Script
         id="scripts"

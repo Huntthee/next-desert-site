@@ -296,7 +296,7 @@ let output = '<div id="image-container">';
 
 const images = gallery.forEach(function(item){
   output += `
-  <div class="gallery-image">
+  <div class="image-container">
     <h3>${item.desc}</h3>
     <img src=${item.src} alt=${item.alt} onContextMenu="return false;" loading="lazy">
   </div>
