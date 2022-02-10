@@ -1,14 +1,6 @@
 // 
 const waiting = [
   {
-    name: "HeyCallMeClay",
-  },
-
-  {
-    name: "TommyYoza",
-  },
-
-  {
     name: "bigmoose_12",
   },
   {
@@ -40,6 +32,15 @@ const working = [
   },
   {
     name: "Justin Gigantor",
+  },
+];
+
+const onHold = [
+  {
+    name: "HeyCallMeClay",
+  },
+  {
+    name: "TommyYoza",
   },
 ];
 
@@ -346,6 +347,23 @@ working.forEach(function (item) {
 });
 
 workTable += "</table>";
+
+// Table for clients on hold
+let holdTable = '<table>';
+holdTable += '<tr><th>Name</th></tr>'
+
+const clientHold = onHold.forEach(function(item) {
+  holdTable += `
+  <tr>
+  <td>${item.name}</td>
+  </tr>
+  `;
+});
+
+holdTable += '</table>';
+
+document.getElementById('on-hold').innerHTML = holdTable;
+
 
 // Table for completed works
 let doneTable = "<table>";
