@@ -11,6 +11,7 @@ export default function Waitlist() {
       </nav>
       <h1 className="text-2xl text-center font-bold mt-5">Waitlist</h1>
       <WaitlistContent></WaitlistContent>
+      <p className="text-center my-5">If content fails to load, refresh the page.</p>
       <nav>
         <Navigation></Navigation>
       </nav>

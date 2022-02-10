@@ -26,6 +26,21 @@ article {
   margin: 26px 0 46px 0;
 }
 
+table {
+  table-layout: fixed;
+}
+
+tr:nth-child(2n) {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.customer-name {
+  font-family: 'Nanum Pen Script', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .image-container {
   margin-top: 50px;
 }

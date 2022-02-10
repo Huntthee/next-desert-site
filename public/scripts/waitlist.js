@@ -327,7 +327,7 @@ waitTable += "<tr><th>Name</th></tr>";
 waiting.forEach(function (item) {
   waitTable += `
   <tr>
-  <td>${item.name}</td>
+  <td class="customer-name">${item.name}</td>
   </tr>
   `;
 });
@@ -341,7 +341,7 @@ workTable += "<tr><th>Name</th></tr>";
 working.forEach(function (item) {
   workTable += `
   <tr>
-  <td>${item.name}</td>
+  <td class="customer-name">${item.name}</td>
   </tr>
   `;
 });
@@ -355,7 +355,7 @@ holdTable += '<tr><th>Name</th></tr>'
 const clientHold = onHold.forEach(function(item) {
   holdTable += `
   <tr>
-  <td>${item.name}</td>
+  <td class="customer-name">${item.name}</td>
   </tr>
   `;
 });
@@ -372,7 +372,7 @@ doneTable += "<tr><th>Name</th><th>Commission</th></tr>";
 complete.forEach(function (item) {
   doneTable += `
   <tr>
-  <td>${item.name}</td>
+  <td class="customer-name">${item.name}</td>
   <td>${item.work}</td>
   </tr>
   `;
