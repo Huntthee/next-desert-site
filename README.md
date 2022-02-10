@@ -15,12 +15,18 @@ What needs to be rebuilt or built from scratch is some of the logic for injectin
 - [x] Convert to TypeScript
 - [x] Copy/Paste site content
 - [x] Install & Configure Tailwind
+- [x] Create logic for populating `portfolio` page with images/text about past projects
+- [x] Apply basic global styles
+- [x] Apply basic mobile styles
 
 ## Coming up next
 
-- [ ] Apply basic global styles
-- [ ] Possibly move waitlist logic into waitlist component, populate tables with React instead :beetle:.
-- [ ] Create logic for populating `portfolio` page with images/text about past projects
+- [ ] Begin work on desktop styles
+- [ ] implement 'night-mode' features
+- [ ] polish & finalize mobile styles
+- [ ] polish & finalize desktop styles
+- [ ] Possibly move waitlist & portfolio logic into waitlist component, populate tables with React instead :beetle:.
+
 
 ## What the future holds
 
