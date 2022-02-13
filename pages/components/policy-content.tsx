@@ -1,7 +1,7 @@
 export default function PolicyContent() {
   return (
     <>
-      <section className="m-2">
+      <section className="m-2 lg:m-7">
         <h1 className="text-center text-2xl font-bold mt-5">
           Policy and Terms of Service
         </h1>
