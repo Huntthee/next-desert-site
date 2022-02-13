@@ -30,9 +30,18 @@ table {
   table-layout: fixed;
 }
 
-tr:nth-child(2n) {
+tr {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0 5px;
+  padding: 5px 10px;
   background-color: white;
   border-radius: 10px;
+}
+
+tr:nth-child(1) {
+  background: none;
 }
 
 .customer-name {

@@ -367,7 +367,7 @@ document.getElementById('on-hold').innerHTML = holdTable;
 
 // Table for completed works
 let doneTable = "<table>";
-doneTable += "<tr><th>Name</th><th>Commission</th></tr>";
+doneTable += "<tr><th>Name & Commission</th></tr>";
 
 complete.forEach(function (item) {
   doneTable += `
