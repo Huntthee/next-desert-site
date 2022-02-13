@@ -12,6 +12,7 @@ nav div a {
 a {
   font-family: 'Signika Negative';
   font-weight: bold;
+  cursor: url('../public/images/cursor-whale.png'), auto;
 }
 
 p {

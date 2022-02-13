@@ -5,9 +5,8 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
+      'lg': '1024px', // Laptop
+      'xl': '1280px', // Desktop
     },
     colors: {
       transparent: 'transparent',
