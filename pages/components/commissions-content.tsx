@@ -1,7 +1,7 @@
 export default function CommissionContent() {
   return (
     <>
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Emotes</h2>
         <h3 className="mb-2">1x $30 || 3x $90 || 6x $180</h3>
         <hr />
@@ -14,7 +14,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Logo</h2>
         <h3 className="mb-2">$75 - $300</h3>
         <hr />
@@ -28,7 +28,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Twitch Stream Package</h2>
         <h3 className="mb-2">$120</h3>
         <hr />
@@ -42,7 +42,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Subscriber & Bit Badges</h2>
         <h3 className="mb-2">1x $20-30 || 3x $75 || 6x $150</h3>
         <hr />
@@ -64,7 +64,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Basic Scenes, Overlays or Banners</h2>
         <h3 className="mb-2">1x $20 || 3x $60 || 6x $110</h3>
         <hr />
@@ -83,7 +83,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Illustrated Scene</h2>
         <h3 className="mb-2">$80 - $150 / Scene</h3>
         <hr />
@@ -103,7 +103,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Basic Panels</h2>
         <h3 className="mb-2">1x $10 || 6x $60</h3>
         <hr />
@@ -120,7 +120,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Illustrated Panels</h2>
         <h3 className="mb-2">$30/ea</h3>
         <hr />
@@ -140,7 +140,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Decorative Stream Schedule</h2>
         <h3 className="mb-2">$40</h3>
         <hr />
@@ -153,7 +153,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Poster or Graphic</h2>
         <h3 className="mb-2">$30</h3>
         <hr />
@@ -166,7 +166,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7">
         <h2 className="font-bold">Profile Picture / Avatar / Icon</h2>
         <h3 className="mb-2">$35</h3>
         <hr />
