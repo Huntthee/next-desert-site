@@ -18,7 +18,7 @@ export default function About() {
 
         <p className="py-2">I am also skilled in traditional art and painting, and am currently experimenting with new and alternative programs to create stream elements, overlays, emote designs and animations.</p>
 
-        <ul className="text-left list-disc px-4 my-7 bg-lorange rounded">
+        <ul className="text-left list-disc px-4 my-7 bg-lorange rounded lg:mx-7">
           <li className="text-center font-bold p-3 list-none">Skills:</li>
           <li>Graduated from the Graphic Communications and Print Technology program at SAIT.</li>
           <li>Certified in Adobe Illustrator, Photoshop and InDesign.</li>
@@ -29,7 +29,7 @@ export default function About() {
           <li>Main focus is gaining experience and expanding my portfolio while I pursue the ability to work from home and follow my passion.</li>
         </ul>
 
-        <ul className="bg-lorange rounded">
+        <ul className="bg-lorange rounded lg:mx-7">
           <li className="font-bold p-3">Interests:</li>
           <li>Traditional and Digital Art</li>
           <li>Video Game Design</li>
@@ -45,7 +45,7 @@ export default function About() {
         <a href="https://www.paypal.com/paypalme/desertwhale"       id="donation-link" 
         target="_blank" 
         rel="noreferrer"
-        className="px-7 py-3 bg-highlight rounded"
+        className="px-7 py-3 bg-highlight rounded lg:hover:text-white"
         >
           Donate!
         </a>
