@@ -5,29 +5,18 @@
 ---
 
 ## What's going on here!?
-I am rebuilding a site first constructed with `EJS/Node` & hosted on `Heroku`, and creating it basically anew with `React/Next.js/TypeScript` and `Tailwind CSS` with hosting by `Vercel` once completed. Most of the actual content has been copy pasta'd right on over.
+I am rebuilding a site first constructed with `EJS/Node` & hosted on `Heroku`, and creating it basically anew with `React/Next.js/TypeScript` and `Tailwind CSS` with hosting by `Vercel` once completed.
 
-What needs to be rebuilt or built from scratch is some of the logic for injecting HTML/JSX such as with the `waitlist` and the `portfolio` pages.
+![Simple & vague diagram of the site update being made](public/images/site-swap.webp)
 
-## What's been done so far?
+This project has been and will continue to provide me with an excellent way to practice React/Next.js and Tailwind CSS for use on future projects.
 
-- [x] Set up Next.js project
-- [x] Convert to TypeScript
-- [x] Copy/Paste site content
-- [x] Install & Configure Tailwind
-- [x] Create logic for populating `portfolio` page with images/text about past projects
-- [x] Apply basic global styles
-- [x] Apply basic mobile styles
+## Want to see how things are looking?
+You can check out the current state of the project and keep tabs on its progress by visiting the development site hosted by Vercel at [next-desert-site.vercel.app]('https://next-desert-site.vercel.app').
 
-## Coming up next
+## Attributions
+All of the technologies and images used within this project have come from the following sources.
 
-- [ ] Begin work on desktop styles
-- [ ] implement 'night-mode' features
-- [ ] polish & finalize mobile styles
-- [ ] polish & finalize desktop styles
-- [ ] Possibly move waitlist & portfolio logic into waitlist component, populate tables with React instead :beetle:.
-
-
-## What the future holds
-
-Eventually I hope to have this site more or less replicate the existing site at [www.TheDesertWhale.com](https://www.thedesertwhale.com) but with additional features such as Dark Mode made easy with Tailwind.
+ - [Next.js Documentation]('https://nextjs.org/docs/getting-started')
+ - [Tailwind CSS Documentation]('https://tailwindcss.com/docs/installation')
+ - [TheDesertWhale.com]('https://www.thedesertwhale.com')
