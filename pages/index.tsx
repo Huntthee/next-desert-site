@@ -22,14 +22,14 @@ const Home: NextPage = () => {
           crossOrigin="anonymous"
         ></link>
       </Head>
-      <main>
+      <main className=''>
         <nav>
           <Navigation></Navigation>
         </nav>
         <HomeContent></HomeContent>
         <About></About>
+        <Footer></Footer>
       </main>
-      <Footer></Footer>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function HomeContent() {
   return (
     <>
-      <section className="flex-column text-center">
-        <h1 className="text-6xl font-primary text-amaranth my-8 lg:text-7xl">
+      <section id="home-section" className="flex-column text-center ">
+        <h1 className="text-6xl font-primary text-amaranth my-8 lg:text-7xl xl:text-8xl">
           DesertWhale
         </h1>
         <div>
@@ -68,7 +68,7 @@ export default function HomeContent() {
             <i className="fas fa-tshirt text-3xl text-amaranth lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
           </a>
         </div>
-        <div className="my-6">
+        <div className="my-6 xl:my-7">
           <p className="font-bold">More about me!</p>
           <i className="fas fa-arrow-down lg:animate-bounce"></i>
         </div>

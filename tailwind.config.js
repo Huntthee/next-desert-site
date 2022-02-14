@@ -29,7 +29,9 @@ module.exports = {
       '5': '32px',
       '6': '48px',
       '7': '64px',
-      '8': '124px'
+      '8': '124px',
+      '9': '248px',
+      '10': '496px'
     },
     fontFamily: {
       primary: ['Signika', 'sans-serif'],

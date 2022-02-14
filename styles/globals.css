@@ -12,7 +12,7 @@ nav div a {
 a {
   font-family: 'Signika Negative';
   font-weight: bold;
-  cursor: url('../public/images/cursor-whale.png'), auto;
+  cursor: url('../public/images/cursor-whale.png'), pointer;
 }
 
 p {
@@ -84,3 +84,4 @@ tr:nth-child(1) {
     border-radius: 5px;
   }
 }
+
