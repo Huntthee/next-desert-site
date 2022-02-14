@@ -4,10 +4,10 @@ export default function HomeContent() {
   return (
     <>
       <section id="home-section" className="flex-column text-center ">
-        <h1 className="text-6xl font-primary text-amaranth my-8 lg:text-7xl xl:text-8xl">
+        <h1 className="text-6xl font-primary text-amaranth mb-8 pt-8 lg:text-7xl xl:text-8xl">
           DesertWhale
         </h1>
-        <div>
+        <div className="bg-white w-fit m-auto p-1 rounded-full">
           <p className="lg:text-lg">
             Commission Status:{" "}
             <strong className="text-highlight">Closed</strong>
@@ -16,12 +16,12 @@ export default function HomeContent() {
 
         <div className="my-8">
           <Link href="/portfolio">
-            <a className="font-special text-2xl bg-lorange p-2 m-1 rounded-full lg:hover:animate-pulse">
+            <a className="font-special text-2xl bg-white p-2 m-1 rounded-full lg:hover:animate-pulse">
               View My Work
             </a>
           </Link>
           <Link href="/commissions">
-            <a className="font-special text-2xl bg-lorange p-2 m-1 rounded-full lg:hover:animate-pulse">
+            <a className="font-special text-2xl bg-white p-2 m-1 rounded-full lg:hover:animate-pulse">
               Hire Me!
             </a>
           </Link>
@@ -34,7 +34,7 @@ export default function HomeContent() {
             title="Twitter"
             rel="noreferrer"
           >
-            <i className="fab fa-twitter text-3xl text-[#1da1f2] lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
+            <i className="fab fa-twitter text-3xl text-[#1da1f2] bg-white p-1 rounded-full"></i>
           </a>
           <a
             href="https://www.twitch.tv/thedesertwhale"
@@ -42,7 +42,7 @@ export default function HomeContent() {
             title="Twitch"
             rel="noreferrer"
           >
-            <i className="fab fa-twitch text-3xl text-[#6441a5] lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
+            <i className="fab fa-twitch text-3xl text-[#6441a5] bg-white p-1 rounded-full"></i>
           </a>
           <a
             href="https://www.instagram.com/dessertwhale/"
@@ -50,7 +50,7 @@ export default function HomeContent() {
             title="Instagram"
             rel="noreferrer"
           >
-            <i className="fab fa-instagram text-3xl text-[#cd486b] lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
+            <i className="fab fa-instagram text-3xl text-[#cd486b] bg-white p-1 rounded-full"></i>
           </a>
           <a
             href="https://www.tiktok.com/@the_desertwhale?lang=en"
@@ -58,17 +58,17 @@ export default function HomeContent() {
             title="TikTok"
             rel="noreferrer"
           >
-            <i className="fab fa-tiktok text-3xl lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
+            <i className="fab fa-tiktok text-3xl bg-white p-1 rounded-full"></i>
           </a>
           <a
             href="https://desertwhale.threadless.com/"
             target="blank"
             title="Threadless"
           >
-            <i className="fas fa-tshirt text-3xl text-amaranth lg:hover:bg-shade lg:p-1 lg:rounded-full"></i>
+            <i className="fas fa-tshirt text-3xl text-amaranth bg-white p-1 rounded-full"></i>
           </a>
         </div>
-        <div className="my-6 xl:my-7">
+        <div className="my-6 py-6 xl:my-7">
           <p className="font-bold">More about me!</p>
           <i className="fas fa-arrow-down lg:animate-bounce"></i>
         </div>
