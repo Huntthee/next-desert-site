@@ -87,19 +87,30 @@ tr:nth-child(1) {
 
 // Changing colors background style
 @keyframes bgcolor {
-
   0% {
-      background-color: #ff5940
+    background-color: #f6d3ac;
+  }
+
+  25% {
+    background-color: #a92d56;
+  }
+  
+  50% {
+    background-color: #32c3a6;
+  }
+
+  75% {
+    background-color: #ff5940
   }
 
   100% {
-      background-color: #5e6fd1;
+    background-color: #5e6fd1;
   }
 }
 
 #home-section {
-  animation: bgcolor 10s infinite;
+  animation: bgcolor 20s infinite;
   h1 {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 3px 3px 3px black;
   }
 }

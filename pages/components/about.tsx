@@ -7,8 +7,8 @@ export default function About() {
       <section className="text-center px-3">
         <Image 
           src={whale}
-          width="200"
-          height="200"
+          width="300"
+          height="300"
           className="rounded-full"
         />
 
@@ -19,7 +19,7 @@ export default function About() {
         <p className="py-2">I am also skilled in traditional art and painting, and am currently experimenting with new and alternative programs to create stream elements, overlays, emote designs and animations.</p>
 
         <ul className="text-left list-disc px-4 my-7 bg-lorange rounded lg:mx-7 xl:mx-10">
-          <li className="text-center font-bold p-3 list-none">Skills:</li>
+          <li className="text-center text-2xl text-amaranth font-bold p-3 list-none">Skills:</li>
           <li>Graduated from the Graphic Communications and Print Technology program at SAIT.</li>
           <li>Certified in Adobe Illustrator, Photoshop and InDesign.</li>
           <li>Currently working with a mix of new and old programs such as Clip Studio Paint, Krita and Adobe Illustrator.</li>
@@ -30,7 +30,7 @@ export default function About() {
         </ul>
 
         <ul className="bg-lorange rounded lg:mx-7 xl:mx-10">
-          <li className="font-bold p-3">Interests:</li>
+          <li className="font-bold text-2xl text-amaranth p-3">Interests:</li>
           <li>Traditional and Digital Art</li>
           <li>Video Game Design</li>
           <li>Graphic Design, Layout & Typography</li>

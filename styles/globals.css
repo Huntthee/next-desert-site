@@ -90,6 +90,15 @@ tr:nth-child(1) {
 
 @-webkit-keyframes bgcolor {
   0% {
+    background-color: #f6d3ac;
+  }
+  25% {
+    background-color: #a92d56;
+  }
+  50% {
+    background-color: #32c3a6;
+  }
+  75% {
     background-color: #ff5940;
   }
   100% {
@@ -99,6 +108,15 @@ tr:nth-child(1) {
 
 @keyframes bgcolor {
   0% {
+    background-color: #f6d3ac;
+  }
+  25% {
+    background-color: #a92d56;
+  }
+  50% {
+    background-color: #32c3a6;
+  }
+  75% {
     background-color: #ff5940;
   }
   100% {
@@ -107,11 +125,11 @@ tr:nth-child(1) {
 }
 
 #home-section {
-  -webkit-animation: bgcolor 10s infinite;
-          animation: bgcolor 10s infinite;
+  -webkit-animation: bgcolor 20s infinite;
+          animation: bgcolor 20s infinite;
 }
 
 #home-section h1 {
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 3px 3px 3px black;
 }
 /*# sourceMappingURL=globals.css.map */

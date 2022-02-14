@@ -4,7 +4,7 @@ export default function HomeContent() {
   return (
     <>
       <section id="home-section" className="flex-column text-center ">
-        <h1 className="text-6xl font-primary text-amaranth mb-8 pt-8 lg:text-7xl xl:text-8xl">
+        <h1 className="text-6xl font-primary text-white mb-8 pt-8 lg:mb-7 lg:text-7xl xl:mb-8 xl:text-8xl">
           DesertWhale
         </h1>
         <div className="bg-white w-fit m-auto p-1 rounded-full">
@@ -34,7 +34,7 @@ export default function HomeContent() {
             title="Twitter"
             rel="noreferrer"
           >
-            <i className="fab fa-twitter text-3xl text-[#1da1f2] bg-white p-1 rounded-full"></i>
+            <i className="fab fa-twitter text-3xl text-[#1da1f2] bg-white p-1 rounded-full hover:text-white hover:bg-[#1da1f2]"></i>
           </a>
           <a
             href="https://www.twitch.tv/thedesertwhale"
@@ -42,7 +42,7 @@ export default function HomeContent() {
             title="Twitch"
             rel="noreferrer"
           >
-            <i className="fab fa-twitch text-3xl text-[#6441a5] bg-white p-1 rounded-full"></i>
+            <i className="fab fa-twitch text-3xl text-[#6441a5] bg-white p-1 rounded-full hover:text-white hover:bg-[#6641a5]"></i>
           </a>
           <a
             href="https://www.instagram.com/dessertwhale/"
@@ -50,7 +50,7 @@ export default function HomeContent() {
             title="Instagram"
             rel="noreferrer"
           >
-            <i className="fab fa-instagram text-3xl text-[#cd486b] bg-white p-1 rounded-full"></i>
+            <i className="fab fa-instagram text-3xl text-[#cd486b] bg-white p-1 rounded-full hover:text-white hover:bg-[#cd486b]"></i>
           </a>
           <a
             href="https://www.tiktok.com/@the_desertwhale?lang=en"
@@ -58,14 +58,14 @@ export default function HomeContent() {
             title="TikTok"
             rel="noreferrer"
           >
-            <i className="fab fa-tiktok text-3xl bg-white p-1 rounded-full"></i>
+            <i className="fab fa-tiktok text-3xl bg-white p-1 rounded-full hover:text-white hover:bg-black"></i>
           </a>
           <a
             href="https://desertwhale.threadless.com/"
             target="blank"
             title="Threadless"
           >
-            <i className="fas fa-tshirt text-3xl text-amaranth bg-white p-1 rounded-full"></i>
+            <i className="fas fa-tshirt text-3xl text-amaranth bg-white p-1 rounded-full hover:text-white hover:bg-amaranth"></i>
           </a>
         </div>
         <div className="my-6 py-6 xl:my-7">
