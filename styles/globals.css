@@ -65,7 +65,7 @@ tr:nth-child(1) {
 }
 
 .display-item img {
-  max-width: 95%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
@@ -131,5 +131,21 @@ tr:nth-child(1) {
 
 #home-section h1 {
   text-shadow: 3px 3px 3px black;
+}
+
+@media screen and (min-width: 1280px) {
+  #image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .display-item {
+    width: 50%;
+  }
+  .display-item img {
+    max-width: 70%;
+  }
 }
 /*# sourceMappingURL=globals.css.map */
