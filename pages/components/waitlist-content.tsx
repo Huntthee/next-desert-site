@@ -1,7 +1,7 @@
 export default function WaitlistContent() {
   return (
     <>
-      <section className="text-center lg:flex-wrap">
+      <section className="text-center lg:flex-wrap xl:flex xl:justify-center xl:mt-7">
         <div className="lg:flex lg:justify-center">
           <article className="lg:w-fit">
             <h3 className="font-bold bg-salmon w-fit m-auto px-2 rounded-t">
@@ -35,7 +35,7 @@ export default function WaitlistContent() {
         </div>
 
 
-        <article className="lg:w-fit lg:m-auto">
+        <article className="max-h-10 overflow-x-scroll lg:w-fit lg:m-auto xl:m-2">
           <h3 className="font-bold  bg-lorange w-fit m-auto px-2 rounded-t">
             Completed
           </h3>
