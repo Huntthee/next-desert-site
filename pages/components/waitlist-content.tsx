@@ -35,7 +35,7 @@ export default function WaitlistContent() {
         </div>
 
 
-        <article className="max-h-10 overflow-x-scroll lg:w-fit lg:m-auto xl:m-2">
+        <article className="max-h-10 overflow-auto lg:w-fit lg:m-auto xl:m-2">
           <h3 className="font-bold  bg-lorange w-fit m-auto px-2 rounded-t">
             Completed
           </h3>
