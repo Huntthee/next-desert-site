@@ -1,7 +1,7 @@
 const gallery = [
   {
     alt: "Assorted Sombreros and a cowboy hat for SmileyRaider96",
-    src: '"images/smiley-hats.jpg"',
+    src: 'images/smiley-hats.jpg',
     desc: "Sub Badges for SmileyRaider96",
   },
   {
@@ -290,7 +290,7 @@ const gallery = [
     desc: "Stream Schedule for Cades Arcade",
   },
 ];
-
+/*
 //loop for iterating over images and creating the portfolio gallery
 let output = '<div id="image-container">';
 
@@ -306,3 +306,6 @@ const images = gallery.forEach(function(item){
 output += '</div>';
 
 document.getElementById('portfolio-gallery').innerHTML = output;
+*/
+
+export default gallery;
