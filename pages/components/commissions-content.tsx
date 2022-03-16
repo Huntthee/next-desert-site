@@ -17,6 +17,7 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Logo</h2>
+        <img src="images/unbound-icon.webp" alt="Unbound Icon/Logo for their WorldAnvil site" className="p-4 m-auto"/>
         <h3 className="mb-2 xl:text-lg font-bold">$75 - $300</h3>
         <hr />
         <figure className="my-4 px-1">
@@ -31,7 +32,8 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Twitch Stream Package</h2>
-        <h3 className="mb-2 xl:text-lg">$120</h3>
+        <img src="images/tbone-panel.webp" alt="A spread of content for Niladien's Twitch stream" className="pr-8 pl-8 pt-4 pb-4 m-auto"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$120</h3>
         <hr />
         <h3>A set of essential elements for your stream</h3>
         <figure className="my-4 px-1">
@@ -45,7 +47,8 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Subscriber & Bit Badges</h2>
-        <h3 className="mb-2 xl:text-lg">1x $20-30 || 3x $75 || 6x $150</h3>
+        <img src="images/smiley-hats.jpg" alt="An assortment of sombreros for subscriber badges!" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">1x $20-30 || 3x $75 || 6x $150</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -67,7 +70,8 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Basic Scenes, Overlays or Banners</h2>
-        <h3 className="mb-2 xl:text-lg">1x $20 || 3x $60 || 6x $110</h3>
+        <img src="" alt="Needs Image" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">1x $20 || 3x $60 || 6x $110</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -86,7 +90,8 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Illustrated Scene</h2>
-        <h3 className="mb-2 xl:text-lg">$80 - $150 / Scene</h3>
+        <img src="images/meeks-starting-soon.jpg" alt="A starting soon scene featuring the pokemon blastoise and gengar" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$80 - $150 / Scene</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -106,7 +111,8 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Basic Panels</h2>
-        <h3 className="mb-2 xl:text-lg">1x $10 || 6x $60</h3>
+        <img src="images/thrills-panel.webp" alt="Panels and more for DillThrills" className="m-auto pr-8 pl-8 pt-4 pb-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">1x $10 || 6x $60</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -123,7 +129,8 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Illustrated Panels</h2>
-        <h3 className="mb-2 xl:text-lg">$30/ea</h3>
+        <img src="" alt="Needs Image" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$30/ea</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -143,7 +150,8 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Decorative Stream Schedule</h2>
-        <h3 className="mb-2 xl:text-lg">$40</h3>
+        <img src="" alt="Needs Image" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$40</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -156,7 +164,8 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Poster or Graphic</h2>
-        <h3 className="mb-2 xl:text-lg">$30</h3>
+        <img src="" alt="Needs Image" className="m-auto p-4"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$30</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -169,7 +178,8 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
         <h2 className="font-bold xl:text-xl xl:pb-2">Profile Picture / Avatar / Icon</h2>
-        <h3 className="mb-2 xl:text-lg">$35</h3>
+        <img src="images/tbone-logo.jpg" alt="A cute little skeletal t-rex for Tbone" className="m-auto pt-4 pb-4 pr-9 pl-9"/>
+        <h3 className="mb-2 xl:text-lg font-bold">$35</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
