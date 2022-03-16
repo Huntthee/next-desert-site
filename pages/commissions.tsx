@@ -1,11 +1,12 @@
-import Link from 'next/link'
 import Navigation from './components/navigation';
 import Footer from './components/footer';
 import CommissionContent from './components/commissions-content';
+import Header from './components/header';
 
 export default function Commissions() {
   return (
     <>
+      <Header></Header>
       <nav>
         <Navigation></Navigation>
       </nav>

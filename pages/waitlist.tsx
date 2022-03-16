@@ -2,10 +2,12 @@ import Footer from "./components/footer";
 import Navigation from "./components/navigation";
 import WaitlistContent from "./components/waitlist-content";
 import Script from "next/script";
+import Header from "./components/header";
 
 export default function Waitlist() {
   return (
     <>
+      <Header></Header>
       <nav>
         <Navigation></Navigation>
       </nav>

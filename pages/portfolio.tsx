@@ -1,10 +1,12 @@
 import Footer from './components/footer';
 import Navigation from './components/navigation';
 import gallery from '../public/scripts/portfolio';
+import Header from './components/header'
 
 export default function Portfolio() {
   return (
     <>
+      <Header></Header>
       <nav>
         <Navigation></Navigation>
       </nav>

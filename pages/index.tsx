@@ -4,6 +4,7 @@ import Navigation from './components/navigation'
 import HomeContent from './components/home'
 import About from './components/about'
 import Footer from './components/footer'
+import Header from './components/header'
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         ></link>
       </Head>
       <main>
+        <Header></Header>
         <nav>
           <Navigation></Navigation>
         </nav>
