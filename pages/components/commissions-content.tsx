@@ -3,7 +3,8 @@ export default function CommissionContent() {
     <>
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
         <h2 className="font-bold xl:text-xl xl:pb-2">Emotes</h2>
-        <h3 className="mb-2 xl:text-lg">1x $30 || 3x $90 || 6x $180</h3>
+        <img src="images/kami-emotes.jpg" alt="A spread of emotes done for Kamizard on Twitch" className="p-4 m-auto"/>
+        <h3 className="mb-2 xl:text-lg font-bold">1x $30 || 3x $90 || 6x $180</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -16,7 +17,7 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold xl:text-xl xl:pb-2">Logo</h2>
-        <h3 className="mb-2 xl:text-lg">$75 - $300</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$75 - $300</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
