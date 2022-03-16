@@ -10,11 +10,14 @@ export default function Portfolio() {
       </nav>
       <h1 className="text-center font-bold text-2xl mt-4">Portfolio</h1>
       <section id="portfolio-gallery" className="text-center p-2">
-        {gallery.map(image => (
-          <div>
-            <img src={image.src} alt={image.alt} />
-          </div>
-        ))}
+        <div id="image-container">
+          {gallery.map(image => (
+            <div className="display-item">
+              <h3>{image.desc}</h3>
+              <img src={image.src} alt={image.alt} contextMenu="return false;"/>
+            </div>
+          ))}
+        </div>
       </section>
       <p className="text-center my-5">
         If content fails to load, refresh the page.
