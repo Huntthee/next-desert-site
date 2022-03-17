@@ -14,15 +14,15 @@ export default function Waitlist() {
       <nav>
         <Navigation></Navigation>
       </nav>
-      <h1 className="text-2xl text-center font-bold mt-5">Waitlist</h1>
-        <section className="flex justify-around my-5 py-4 bg-lorange w-3/4 m-auto">
-          <ul className="bg-salmon p-3 rounded">
+      <h1 className="text-4xl text-center font-bold my-6">Waitlist</h1>
+        <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto">
+          <ul className="bg-salmon p-3 rounded mb-3">
             <h3 className="font-primary text-xl text-center pb-3">Waiting</h3>
             {waiting.map((client, index) => (
               <li key={index} className="bg-white rounded-full p-1 text-center m-1 font-special text-xl">{client.name}</li>
             ))}
           </ul>
-          <ul className="bg-salmon p-3 rounded">
+          <ul className="bg-salmon p-3 rounded mb-3">
             <h3 className="font-primary text-xl text-center pb-3">Working</h3>
             {working.map((client, index) => (
               <li key={index} className="bg-white rounded-full p-1 text-center m-1 font-special text-xl">{client.name}</li>
@@ -35,11 +35,11 @@ export default function Waitlist() {
             ))}
           </ul>
         </section>
-        <section className="w-2/3 m-auto mb-7">
+        <section className="w-2/3 m-auto mb-7 bg-lorange p-4 xl:p-6">
           <ul className="bg-salmon p-3 rounded max-h-10 overflow-y-scroll">
             <h3 className="font-primary text-xl text-center pb-3">Complete</h3>
             {complete.map((client, index) => (
-              <li key={index} className="bg-white rounded-full p-1 text-center m-1 font-special text-xl mx-8">{client.name} - {client.work}</li>
+              <li key={index} className="bg-white rounded-full px-2 py-1 text-center m-1 font-special text-xl xl:mx-8">{client.name} - {client.work}</li>
             ))}
           </ul>
         </section>

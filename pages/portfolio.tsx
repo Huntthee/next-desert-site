@@ -10,8 +10,8 @@ export default function Portfolio() {
       <nav>
         <Navigation></Navigation>
       </nav>
-      <h1 className="text-center font-bold text-2xl mt-4">Portfolio</h1>
-      <h3 className="text-center font-secondary mt-3">Browse through my past works!</h3>
+      <h1 className="text-center font-bold text-4xl my-6">Portfolio</h1>
+      <h3 className="text-center font-secondary text-xl mt-3">Browse through my past works!</h3>
       <section id="portfolio-gallery" className="text-center p-2 mb-8">
         <div id="image-container">
           {gallery.map(image => (

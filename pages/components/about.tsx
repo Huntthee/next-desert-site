@@ -5,6 +5,7 @@ export default function About() {
   return (
     <>
       <section className="text-center px-3">
+        <h2 className="font-primary text-2xl mb-5">About Me!</h2>
         <Image 
           src={whale}
           width="300"

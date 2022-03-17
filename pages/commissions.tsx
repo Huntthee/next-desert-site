@@ -11,7 +11,7 @@ export default function Commissions() {
         <Navigation></Navigation>
       </nav>
       <div className="text-center">
-        <h1 className="font-bold text-2xl mt-5">Commissions</h1>
+        <h1 className="font-bold text-4xl my-6">Commissions</h1>
         <CommissionContent></CommissionContent>
       </div>
       <nav>

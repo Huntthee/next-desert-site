@@ -2,7 +2,7 @@ export default function PolicyContent() {
   return (
     <>
       <section className="m-2 lg:m-7 xl:mx-9">
-        <h1 className="text-center text-2xl font-bold mt-5">
+        <h1 className="text-center text-4xl font-bold my-6">
           Policy and Terms of Service
         </h1>
         <h3 className="text-center text-xl font bold my-5">
