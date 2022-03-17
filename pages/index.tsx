@@ -16,12 +16,6 @@ const Home: NextPage = () => {
           content="Digital Artwork for Streaming, Social Media, Websites, Personal Use & More!"
         />
         <link rel="icon" href="/images/lil-whale.png" />
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-          crossOrigin="anonymous"
-        ></link>
       </Head>
       <main>
         <Header></Header>

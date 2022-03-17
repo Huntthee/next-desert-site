@@ -1,3 +1,6 @@
+import { faTwitter, faTwitch, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faTshirt, faArrowDown, faA } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 export default function HomeContent() {
@@ -34,7 +37,7 @@ export default function HomeContent() {
             title="Twitter"
             rel="noreferrer"
           >
-            <i className="fab fa-twitter text-3xl text-[#1da1f2] bg-white p-1 rounded-full hover:text-white hover:bg-[#1da1f2]"></i>
+            <FontAwesomeIcon icon={faTwitter} className="w-6 text-[#1da1f2] bg-white p-1 rounded hover:text-white hover:bg-[#1da1f2]" />
           </a>
           <a
             href="https://www.twitch.tv/thedesertwhale"
@@ -42,7 +45,7 @@ export default function HomeContent() {
             title="Twitch"
             rel="noreferrer"
           >
-            <i className="fab fa-twitch text-3xl text-[#6441a5] bg-white p-1 rounded-full hover:text-white hover:bg-[#6641a5]"></i>
+            <FontAwesomeIcon icon={faTwitch} className="w-6 text-[#6441a5] bg-white p-1 rounded hover:text-white hover:bg-[#6641a5]" />
           </a>
           <a
             href="https://www.instagram.com/dessertwhale/"
@@ -50,7 +53,7 @@ export default function HomeContent() {
             title="Instagram"
             rel="noreferrer"
           >
-            <i className="fab fa-instagram text-3xl text-[#cd486b] bg-white p-1 rounded-full hover:text-white hover:bg-[#cd486b]"></i>
+            <FontAwesomeIcon icon={faInstagram} className="w-6 text-[#cd486b] bg-white p-1 rounded hover:text-white hover:bg-[#cd486b]" />
           </a>
           <a
             href="https://www.tiktok.com/@the_desertwhale?lang=en"
@@ -58,19 +61,19 @@ export default function HomeContent() {
             title="TikTok"
             rel="noreferrer"
           >
-            <i className="fab fa-tiktok text-3xl bg-white p-1 rounded-full hover:text-white hover:bg-black"></i>
+            <FontAwesomeIcon icon={faTiktok} className="w-6 bg-white p-1 rounded hover:text-white hover:bg-black" />
           </a>
           <a
             href="https://desertwhale.threadless.com/"
             target="blank"
             title="Threadless"
           >
-            <i className="fas fa-tshirt text-3xl text-amaranth bg-white p-1 rounded-full hover:text-white hover:bg-amaranth"></i>
+            <FontAwesomeIcon icon={faTshirt} className="w-6 text-amaranth bg-white p-1 rounded hover:text-white hover:bg-amaranth" />
           </a>
         </div>
         <div className="my-6 py-6 xl:my-7">
           <p className="font-bold">More about me!</p>
-          <i className="fas fa-arrow-down lg:animate-bounce"></i>
+          <FontAwesomeIcon icon={faArrowDown} className="w-3 m-auto pt-2 lg:animate-bounce" />
         </div>
       </section>
     </>
