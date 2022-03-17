@@ -14,8 +14,8 @@ export default function Portfolio() {
       <h3 className="text-center font-secondary text-xl mt-3">Browse through my past works!</h3>
       <section id="portfolio-gallery" className="text-center p-2 mb-8">
         <div id="image-container">
-          {gallery.map(image => (
-            <div className="display-item">
+          {gallery.map((image, index) => (
+            <div key={index} className="display-item">
               <h3>{image.desc}</h3>
               <img src={image.src} alt={image.alt} contextMenu="return false;"/>
             </div>

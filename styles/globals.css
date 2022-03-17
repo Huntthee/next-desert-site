@@ -25,35 +25,6 @@ article {
   margin: 26px 0 46px 0;
 }
 
-table {
-  table-layout: fixed;
-}
-
-tr {
-  display: block;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 5px 0 0 5px;
-  padding: 5px 10px;
-  background-color: white;
-  border-radius: 10px;
-}
-
-tr:nth-child(1) {
-  background: none;
-}
-
-.customer-name {
-  font-family: 'Nanum Pen Script', serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
 .display-item {
   margin-top: 50px;
 }
