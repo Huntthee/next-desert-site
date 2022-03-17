@@ -20,3 +20,4 @@ All of the technologies and images used within this project have come from the f
  - [Next.js Documentation](https://nextjs.org/docs/getting-started)
  - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
  - [TheDesertWhale.com](https://www.thedesertwhale.com)
+ - [Alii, creator of the little whale icon](https://rawooo.carrd.co)

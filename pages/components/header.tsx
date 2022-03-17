@@ -6,7 +6,7 @@ export default function Header() {
       <div className="flex">
         <Link href="/">
           <a>
-            <img src="images/lil-whale.png" alt="A little whale done up by Alii for DesertWhale" className="ml-4 mt-4"/>
+            <img src="images/lil-whale.png" alt="A little whale done up by Alii for DesertWhale" title="A little whale done by Alii for DesertWhale" className="ml-4 mt-4"/>
           </a>
         </Link>
         <div className="text-center mt-7 ml-4">
