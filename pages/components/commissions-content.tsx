@@ -2,7 +2,9 @@ export default function CommissionContent() {
   return (
     <>
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Emotes</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
+          Emotes
+        </h2>
         <img
           src="images/kami-emotes.jpg"
           alt="A spread of emotes done for Kamizard on Twitch"
@@ -22,7 +24,9 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Logo</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
+          Logo
+        </h2>
         <img
           src="images/unbound-icon.webp"
           alt="Unbound Icon/Logo for their WorldAnvil site"
@@ -41,7 +45,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Twitch Stream Package</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">Twitch Stream Package</h2>
         <img
           src="images/tbone-panel.webp"
           alt="A spread of content for Niladien's Twitch stream"
@@ -60,7 +64,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
           Subscriber & Bit Badges
         </h2>
         <img
@@ -91,7 +95,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
           Basic Scenes, Overlays or Banners
         </h2>
         <img src="" alt="Needs Image" className="m-auto p-4" />
@@ -115,7 +119,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Illustrated Scene</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">Illustrated Scene</h2>
         <img
           src="images/meeks-starting-soon.jpg"
           alt="A starting soon scene featuring the pokemon blastoise and gengar"
@@ -140,7 +144,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Basic Panels</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">Basic Panels</h2>
         <img
           src="images/thrills-panel.webp"
           alt="Panels and more for DillThrills"
@@ -162,7 +166,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Illustrated Panels</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">Illustrated Panels</h2>
         <img src="" alt="Needs Image" className="m-auto p-4" />
         <h3 className="mb-2 xl:text-lg font-bold">$30/ea</h3>
         <hr />
@@ -183,7 +187,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
           Decorative Stream Schedule
         </h2>
         <img src="" alt="Needs Image" className="m-auto p-4" />
@@ -199,7 +203,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold xl:text-xl xl:pb-2">Poster or Graphic</h2>
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">Poster or Graphic</h2>
         <img src="" alt="Needs Image" className="m-auto p-4" />
         <h3 className="mb-2 xl:text-lg font-bold">$30</h3>
         <hr />
@@ -213,7 +217,7 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
-        <h2 className="font-bold xl:text-xl xl:pb-2">
+        <h2 className="font-bold xl:text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto">
           Profile Picture / Avatar / Icon
         </h2>
         <img
