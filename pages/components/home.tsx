@@ -68,7 +68,7 @@ export default function HomeContent() {
             target="blank"
             title="Threadless"
           >
-            <FontAwesomeIcon icon={faTshirt} className="w-6 text-amaranth bg-white p-1 rounded hover:text-white hover:bg-amaranth" />
+            <FontAwesomeIcon icon={faTshirt} className="w-6 text-amaranth bg-white px-1 py-2 rounded hover:text-white hover:bg-amaranth" />
           </a>
         </div>
         <div className="my-6 py-6 xl:my-7">
