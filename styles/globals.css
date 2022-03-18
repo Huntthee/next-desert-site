@@ -25,40 +25,6 @@ article {
   margin: 26px 0 46px 0;
 }
 
-.display-item {
-  margin-top: 50px;
-}
-
-.display-item h3 {
-  font-weight: bold;
-  font-family: 'Nanum Pen Script', serif;
-  font-size: 20px;
-}
-
-.display-item img {
-  max-width: 65%;
-  margin: 0 auto;
-}
-
-/* Laptop Styles for Portfolio Page */
-@media screen and (min-width: 1028px) {
-  .display-item h3 {
-    font-size: 26px;
-    background: lightgray;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0 10px 0 10px;
-    border-radius: 5px 5px 0 0;
-  }
-  .display-item img {
-    background: lightgray;
-    padding: 15px;
-    border-radius: 5px;
-  }
-}
-
 @-webkit-keyframes bgcolor {
   0% {
     background-color: #f6d3ac;
@@ -102,21 +68,5 @@ article {
 
 #home-section h1 {
   text-shadow: 3px 3px 3px black;
-}
-
-@media screen and (min-width: 1280px) {
-  #image-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .display-item {
-    width: 50%;
-  }
-  .display-item img {
-    max-width: 70%;
-  }
 }
 /*# sourceMappingURL=globals.css.map */

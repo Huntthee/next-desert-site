@@ -12,10 +12,10 @@ export default function Portfolio() {
       </nav>
       <h1 className="text-center font-bold text-4xl my-6">Portfolio</h1>
       <h3 className="text-center font-secondary text-xl mt-3">Browse through my past works!</h3>
-      <section id="portfolio-gallery" className="text-center p-2 mb-8">
-        <div id="image-container">
+      <section className="text-center p-2 mb-8 flex">
+        <div>
           {gallery.map((image, index) => (
-            <div key={index} className="display-item">
+            <div key={index} className="">
               <h3>{image.desc}</h3>
               <img src={image.src} alt={image.alt} contextMenu="return false;"/>
             </div>
