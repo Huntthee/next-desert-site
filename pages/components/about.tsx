@@ -8,6 +8,7 @@ export default function About() {
         <h2 className="font-primary text-2xl mb-5">About Me!</h2>
         <Image 
           src={whale}
+          alt="The beloved DesertWhale in the flesh"
           width="300"
           height="300"
           className="rounded-full"

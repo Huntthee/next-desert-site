@@ -13,7 +13,7 @@ export default function HomeContent() {
         <div className="bg-white w-fit m-auto p-1 rounded-full">
           <p className="lg:text-lg">
             Commission Status:{" "}
-            <strong className="text-highlight">Closed</strong>
+            <strong className="text-ampurp">Closed</strong>
           </p>
         </div>
 
