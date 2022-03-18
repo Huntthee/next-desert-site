@@ -47,14 +47,6 @@ export default function Waitlist() {
         <Navigation></Navigation>
       </nav>
       <Footer></Footer>
-      <Script
-        id="scripts"
-        src="/scripts/waitlist.js"
-        strategy="lazyOnload"
-        onError={(e) => {
-          console.error("Script failed to load", e);
-        }}
-      />
     </>
   );
 }
