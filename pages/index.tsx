@@ -5,6 +5,7 @@ import HomeContent from './components/home'
 import About from './components/about'
 import Footer from './components/footer'
 import Header from './components/header'
+import Script from 'next/script'
 
 const Home: NextPage = () => {
   return (
@@ -16,21 +17,23 @@ const Home: NextPage = () => {
           content="Digital Artwork for Streaming, Social Media, Websites, Personal Use & More!"
         />
         <link rel="icon" href="/images/lil-whale.png" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=[G-62YQ9ZKB2N]"
+
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
 
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '[G-62YQ9ZKB2N]', { page_path: window.location.pathname });
-            `,
-          }}
-        />
+        <Script id="google-analytics" strategy="lazyOnload">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+                `}
+        </Script>
+        
       </Head>
       <main>
         <Header></Header>
