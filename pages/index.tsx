@@ -17,22 +17,6 @@ const Home: NextPage = () => {
           content="Digital Artwork for Streaming, Social Media, Websites, Personal Use & More!"
         />
         <link rel="icon" href="/images/lil-whale.png" />
-
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-62YQ9ZKB2N`}
-        />
-
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-62YQ9ZKB2N', {
-              page_path: window.location.pathname,
-            });
-                `}
-        </Script>
       </Head>
       <main>
         <Header></Header>
