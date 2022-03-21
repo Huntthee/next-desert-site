@@ -16,6 +16,21 @@ const Home: NextPage = () => {
           content="Digital Artwork for Streaming, Social Media, Websites, Personal Use & More!"
         />
         <link rel="icon" href="/images/lil-whale.png" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=[G-62YQ9ZKB2N]"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '[G-62YQ9ZKB2N]', { page_path: window.location.pathname });
+            `,
+          }}
+        />
       </Head>
       <main>
         <Header></Header>
