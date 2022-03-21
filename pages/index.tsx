@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
         <Script
           strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-62YQ9ZKB2N`}
         />
 
         <Script id="google-analytics" strategy="lazyOnload">
@@ -28,12 +28,11 @@ const Home: NextPage = () => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+            gtag('config', 'G-62YQ9ZKB2N', {
               page_path: window.location.pathname,
             });
                 `}
         </Script>
-        
       </Head>
       <main>
         <Header></Header>
