@@ -1,5 +1,29 @@
 const complete = [
   {
+    name: "MelvinS0n",
+    work: "Emote for Twitch",
+  },
+  {
+    name: "Notorious_BLT",
+    work: "Twenty Emotes for Twitch!",
+  },
+  {
+    name: "OnBumpers",
+    work: "Emote for Twitch",
+  },
+  {
+    name: "Big Moose",
+    work: "Five Emotes and Sub Badge",
+  },
+  {
+    name: "HeyCallMeClay",
+    work: "Sub Badges",
+  },
+  {
+    name: "Justin Gigantor",
+    work: "Profile Avatar",
+  },
+  {
     name: "Chester_Dwight",
     work: "Three Emotes for Twitch",
   },

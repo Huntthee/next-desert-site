@@ -1,24 +1,24 @@
 const waiting = [
   {
-    name: "bigmoose_12",
-  },
-  {
-    name: "OnBumpers",
-  },
-  {
-    name: "Notorious_BLT",
-  },
-  {
-    name: "MelvinS0n",
-  },
-  {
-    name: "T0xicLibra",
-  },
-  {
     name: "Jarl Maxi",
   },
   {
-    name: "Overrrrit_",
+    name: "FranklinTurtz",
+  },
+  {
+    name: "Prxmeth3us",
+  },
+  {
+    name: "DillThrill",
+  },
+  {
+    name: "Inkuh1",
+  },
+  {
+    name: "Omar94",
+  },
+  {
+    name: "Bo Baggin",
   },
 ];
 

@@ -1,9 +1,15 @@
 const onHold = [
   {
-    name: "HeyCallMeClay",
+    name: "SilverKestrelStudios",
   },
   {
     name: "TommyYoza",
+  },
+  {
+    name: "TzEnglishMuffin",
+  },
+  {
+    name: "T0xicLibra",
   },
 ];
 
