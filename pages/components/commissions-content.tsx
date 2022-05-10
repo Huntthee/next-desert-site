@@ -99,7 +99,11 @@ export default function CommissionContent() {
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Basic Scenes, Overlays or Banners
         </h2>
-        <img src="" alt="Needs Image" className="m-auto p-4" />
+        <img 
+          src="images/des-scenes.webp"  
+          alt="Custom scenes, overlays or banners in the theme of your choice" 
+          className="m-auto p-4"
+        />
         <h3 className="mb-2 xl:text-lg font-bold">
           1x $20 || 3x $60 || 6x $110
         </h3>
@@ -168,7 +172,11 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Illustrated Panels</h2>
-        <img src="" alt="Needs Image" className="m-auto p-4" />
+        <img 
+          src="images/EndingScene.webp" 
+          alt="Custom, fully illustrated scene for your streaming channel"
+          className="m-auto p-4" 
+        />
         <h3 className="mb-2 xl:text-lg font-bold">$30/ea</h3>
         <hr />
         <figure className="my-4 px-1">
@@ -191,7 +199,10 @@ export default function CommissionContent() {
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Decorative Stream Schedule
         </h2>
-        <img src="" alt="Needs Image" className="m-auto p-4" />
+        <img 
+          src="images/DesSchedule.webp" 
+          alt="Wonderfully colourful stream schedules in a variety of styles" 
+          className="m-auto p-4" />
         <h3 className="mb-2 xl:text-lg font-bold">$40</h3>
         <hr />
         <figure className="my-4 px-1">
