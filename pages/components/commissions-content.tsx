@@ -216,7 +216,7 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Poster or Graphic</h2>
-        <img src="" alt="Needs Image" className="m-auto p-4" />
+        <img src="images/raft-with-friends.webp" alt="Needs Image" className="m-auto p-4" />
         <h3 className="mb-2 xl:text-lg font-bold">$30</h3>
         <hr />
         <figure className="my-4 px-1">
@@ -235,7 +235,7 @@ export default function CommissionContent() {
         <img
           src="images/tbone-logo.jpg"
           alt="A cute little skeletal t-rex for Tbone"
-          className="m-auto px-4 py-4 xl:px-8 xl:py-4"
+          className="m-auto px-4 py-4 xl:px-8 xl:py-4 xl:w-3/4"
         />
         <h3 className="mb-2 xl:text-lg font-bold">$35</h3>
         <hr />
