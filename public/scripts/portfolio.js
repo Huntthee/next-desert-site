@@ -1,5 +1,10 @@
 const gallery = [
   {
+    alt: "Emotes and Sub Badges for Bud_Leiser on Twitch",
+    src: "images/bud-leiser-badges.webp",
+    desc: "Emotes and Sub Badges for Bud_Leiser",
+  },
+  {
     alt: "An assortment of Orc/Goblin themed emotes for Notorious_BLT on Twitch",
     src: "images/notor-orc-emotes.webp",
     desc: "Emotes for Notorious_BLT",

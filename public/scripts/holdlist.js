@@ -11,6 +11,9 @@ const onHold = [
   {
     name: "T0xicLibra",
   },
+  {
+    name: "Jarl Maxi",
+  }
 ];
 
 export default onHold;

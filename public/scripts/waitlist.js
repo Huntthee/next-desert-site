@@ -1,17 +1,5 @@
 const waiting = [
   {
-    name: "Jarl Maxi",
-  },
-  {
-    name: "FranklinTurtz",
-  },
-  {
-    name: "Prxmeth3us",
-  },
-  {
-    name: "DillThrill",
-  },
-  {
     name: "Inkuh1",
   },
   {
@@ -20,6 +8,16 @@ const waiting = [
   {
     name: "Bo Baggin",
   },
+  {
+    name: "BJ (BeefJerky)",
+  },
+  {
+    name: "Notorious_BLT",
+  },
+  {
+    name: "Arcadio",
+  },
+
 ];
 
 export default waiting;
