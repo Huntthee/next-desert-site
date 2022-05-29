@@ -1,10 +1,5 @@
 const waiting = [
-  {
-    name: "Inkuh1",
-  },
-  {
-    name: "Omar94",
-  },
+
   {
     name: "Bo Baggin",
   },
@@ -17,7 +12,9 @@ const waiting = [
   {
     name: "Arcadio",
   },
-
+  {
+    name: "SquareTheBear1"
+  }
 ];
 
 export default waiting;

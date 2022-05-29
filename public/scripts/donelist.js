@@ -1,7 +1,11 @@
 const complete = [
   {
+    name: "DillThrill",
+    work: "Animated Emotes"
+  },
+  {
     name: "Prxmeth3us",
-    work: "Profile Picture"
+    work: "Profile Picture",
   },
   {
     name: "bud_leiser",
