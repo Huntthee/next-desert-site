@@ -22,13 +22,13 @@ export default function Waitlist() {
 
       <h1 className="text-4xl text-center font-bold my-6">Waitlist</h1>
 
-      <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto">
+      <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto xl:w-1/2">
         {/* Wait List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
             Waiting
           </h3>
-          <ul className="bg-salmon p-3 rounded mb-3">
+          <ul className="bg-salmon p-3 rounded mb-3 xl:px-6">
             {waiting.map((client, index) => (
               <li
                 key={index}
@@ -45,7 +45,7 @@ export default function Waitlist() {
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
             Working
           </h3>
-          <ul className="bg-salmon p-3 rounded mb-3">
+          <ul className="bg-salmon p-3 rounded mb-3  xl:px-6">
             {working.map((client, index) => (
               <li
                 key={index}
