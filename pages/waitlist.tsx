@@ -1,6 +1,5 @@
-{
-  /* Import all the necessary peices */
-}
+/* Import all the necessary peices */
+
 import Footer from "./components/footer";
 import Navigation from "./components/navigation";
 import Header from "./components/header";
@@ -8,20 +7,23 @@ import waiting from "../public/scripts/waitlist";
 import working from "../public/scripts/worklist";
 import complete from "../public/scripts/donelist";
 
-{
-  /* Create Waitlist Component */
-}
+
+/* Create Waitlist Page */
+
 export default function Waitlist() {
   return (
     <>
-      {/**/}
+      {/* Insert the Header Component */}
       <Header></Header>
       <nav>
+        {/* Insert the Navigation Component */}
         <Navigation></Navigation>
       </nav>
+
       <h1 className="text-4xl text-center font-bold my-6">Waitlist</h1>
+
       <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto">
-        {/**/}
+        {/* Wait List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
             Waiting
@@ -38,6 +40,7 @@ export default function Waitlist() {
           </ul>
         </div>
 
+        {/* Working List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
             Working
@@ -54,7 +57,9 @@ export default function Waitlist() {
           </ul>
         </div>
       </section>
+
       <section className="w-2/3 m-auto mb-7 bg-lorange p-4 xl:p-6">
+        {/* Complete List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t px-6 py-1 m-auto">
             Complete
@@ -71,9 +76,13 @@ export default function Waitlist() {
           </ul>
         </div>
       </section>
+
       <nav>
+        {/* Insert Navigation Component */}
         <Navigation></Navigation>
       </nav>
+
+      {/* Insert Footer Component */}
       <Footer></Footer>
     </>
   );
