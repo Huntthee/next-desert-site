@@ -1,9 +1,6 @@
 const working = [
   {
-    name: "Inkuh1",
-  },
-  {
-    name: "Omar94",
+    name: "Notorious_BLT",
   },
 ];
 
