@@ -12,7 +12,7 @@ export default function CommissionContent() {
           className="p-4 m-auto"
         />
         <h3 className="mb-2 xl:text-lg font-bold">
-          1x $30 || 3x $90 || 6x $180
+          $35 Each
         </h3>
         <hr />
         <figure className="my-4 px-1">
@@ -48,7 +48,7 @@ export default function CommissionContent() {
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">Twitch Stream Package</h2>
         <img
-          src="images/tbone-panel.webp"
+          src="images/niladien-twitch-set.webp"
           alt="A spread of content for Niladien's Twitch stream"
           className="px-4 py-4 xl:px-8 xl:py-4 m-auto"
         />
@@ -105,7 +105,7 @@ export default function CommissionContent() {
           className="m-auto p-4"
         />
         <h3 className="mb-2 xl:text-lg font-bold">
-          1x $20 || 3x $60 || 6x $110
+          $30 Each
         </h3>
         <hr />
         <figure className="my-4 px-1">
@@ -130,7 +130,7 @@ export default function CommissionContent() {
           alt="A starting soon scene featuring the pokemon blastoise and gengar"
           className="m-auto p-4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">$80 - $150 / Scene</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$100 - $200 / Scene</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -151,11 +151,11 @@ export default function CommissionContent() {
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Basic Panels</h2>
         <img
-          src="images/thrills-panel.webp"
+          src="images/kestrel-panels.webp"
           alt="Panels and more for DillThrills"
           className="m-auto px-4 py-4 xl:px-8 xl:py-4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">1x $10 || 6x $60</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$20 Each</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -230,14 +230,14 @@ export default function CommissionContent() {
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
-          Profile Picture / Avatar / Icon
+          Profile Picture / Portrait
         </h2>
         <img
-          src="images/tbone-logo.jpg"
+          src="images/mateo-smoke.webp"
           alt="A cute little skeletal t-rex for Tbone"
           className="m-auto px-4 py-4 xl:px-8 xl:py-4 xl:w-3/4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">$35</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$50 - $100</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
