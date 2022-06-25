@@ -173,7 +173,7 @@ export default function CommissionContent() {
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Illustrated Panels</h2>
         <img 
-          src="images/EndingScene.webp" 
+          src="images/notor-panels.webp" 
           alt="Custom, fully illustrated scene for your streaming channel"
           className="m-auto p-4" 
         />
