@@ -1,25 +1,9 @@
 const waiting = [
-  {
-    name: "Arcadio",
-  },
-  {
-    name: "SquareTheBear1",
-  },
-  {
-    name: "Smezz0",
-  },
-  {
-    name: "MrBrightside",
-  },
-  {
-    name: "Kamizard",
-  },
-  {
-    name: "BumbleMage",
-  },
-  {
-    name: "Chester Dwight",
-  },
+
 ];
+
+if (waiting.length === 0) {
+  waiting.push({name: "Nobody is in Line!"})
+}
 
 export default waiting;

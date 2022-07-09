@@ -1,11 +1,19 @@
 const complete = [
   {
+    name: "Arcadio",
+    work: ""
+  },
+  {
+    name: "Notorious_BLT",
+    work: ""
+  },
+  {
     name: "Inkuh1",
-    work: "Character Illustrations"
+    work: "Character Illustrations",
   },
   {
     name: "Omar94",
-    work: "Animated Emotes"
+    work: "Animated Emotes",
   },
   {
     name: "BJ (BeefJerky)",
