@@ -1,7 +1,31 @@
 export default function CommissionContent() {
   return (
     <>
-      <p className="text-xl">Take a look at some of the packages on offer, and be sure to read the policy if you're seeking a commission.</p>
+      <p className="text-xl">
+        Take a look at some of the packages on offer, and be sure to read the
+        policy if you're seeking a commission.
+      </p>
+
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
+          Animated Emotes
+        </h2>
+        <img
+          src="images/kami-emotes.jpg"
+          alt="A spread of emotes done for Kamizard on Twitch"
+          className="p-4 m-auto"
+        />
+        <h3 className="mb-2 xl:text-lg font-bold">$50 Each</h3>
+        <hr />
+        <figure className="my-4 px-1">
+          <ul>
+            <li>Description!</li>
+            <li>$15 for seasonal/holiday modifications.</li>
+          </ul>
+        </figure>
+        <hr />
+      </article>
+
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Emotes
@@ -11,9 +35,7 @@ export default function CommissionContent() {
           alt="A spread of emotes done for Kamizard on Twitch"
           className="p-4 m-auto"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">
-          $35 Each
-        </h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$35 Each</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -46,7 +68,9 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">Twitch Stream Package</h2>
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
+          Twitch Stream Package
+        </h2>
         <img
           src="images/niladien-twitch-set.webp"
           alt="A spread of content for Niladien's Twitch stream"
@@ -99,14 +123,12 @@ export default function CommissionContent() {
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Basic Scenes, Overlays or Banners
         </h2>
-        <img 
-          src="images/des-scenes.webp"  
-          alt="Custom scenes, overlays or banners in the theme of your choice" 
+        <img
+          src="images/des-scenes.webp"
+          alt="Custom scenes, overlays or banners in the theme of your choice"
           className="m-auto p-4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">
-          $30 Each
-        </h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$30 Each</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -124,7 +146,9 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Illustrated Scene</h2>
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
+          Illustrated Scene
+        </h2>
         <img
           src="images/meeks-starting-soon.jpg"
           alt="A starting soon scene featuring the pokemon blastoise and gengar"
@@ -149,7 +173,9 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Basic Panels</h2>
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
+          Basic Panels
+        </h2>
         <img
           src="images/kestrel-panels.webp"
           alt="Panels and more for DillThrills"
@@ -171,11 +197,13 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Illustrated Panels</h2>
-        <img 
-          src="images/notor-panels.webp" 
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
+          Illustrated Panels
+        </h2>
+        <img
+          src="images/notor-panels.webp"
           alt="Custom, fully illustrated scene for your streaming channel"
-          className="m-auto p-4" 
+          className="m-auto p-4"
         />
         <h3 className="mb-2 xl:text-lg font-bold">$30/ea</h3>
         <hr />
@@ -199,10 +227,11 @@ export default function CommissionContent() {
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Decorative Stream Schedule
         </h2>
-        <img 
-          src="images/DesSchedule.webp" 
-          alt="Wonderfully colourful stream schedules in a variety of styles" 
-          className="m-auto p-4" />
+        <img
+          src="images/DesSchedule.webp"
+          alt="Wonderfully colourful stream schedules in a variety of styles"
+          className="m-auto p-4"
+        />
         <h3 className="mb-2 xl:text-lg font-bold">$40</h3>
         <hr />
         <figure className="my-4 px-1">
@@ -215,8 +244,14 @@ export default function CommissionContent() {
       </article>
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">Poster or Graphic</h2>
-        <img src="images/raft-with-friends.webp" alt="Needs Image" className="m-auto p-4" />
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
+          Poster or Graphic
+        </h2>
+        <img
+          src="images/raft-with-friends.webp"
+          alt="Needs Image"
+          className="m-auto p-4"
+        />
         <h3 className="mb-2 xl:text-lg font-bold">$30</h3>
         <hr />
         <figure className="my-4 px-1">
