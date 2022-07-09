@@ -6,26 +6,6 @@ export default function CommissionContent() {
         policy if you're seeking a commission.
       </p>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
-          Animated Emotes
-        </h2>
-        <img
-          src="images/kami-emotes.jpg"
-          alt="A spread of emotes done for Kamizard on Twitch"
-          className="p-4 m-auto"
-        />
-        <h3 className="mb-2 xl:text-lg font-bold">$50 Each</h3>
-        <hr />
-        <figure className="my-4 px-1">
-          <ul>
-            <li>Description!</li>
-            <li>$15 for seasonal/holiday modifications.</li>
-          </ul>
-        </figure>
-        <hr />
-      </article>
-
       <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Emotes
@@ -36,6 +16,7 @@ export default function CommissionContent() {
           className="p-4 m-auto"
         />
         <h3 className="mb-2 xl:text-lg font-bold">$35 Each</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">Animated Emotes $50 Each</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>

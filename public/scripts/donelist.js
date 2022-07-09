@@ -1,11 +1,11 @@
 const complete = [
   {
     name: "Arcadio",
-    work: ""
+    work: "Two Emotes & Illustrated Scene",
   },
   {
     name: "Notorious_BLT",
-    work: ""
+    work: "Character Illustrations",
   },
   {
     name: "Inkuh1",
