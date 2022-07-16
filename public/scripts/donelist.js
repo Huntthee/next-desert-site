@@ -1,5 +1,17 @@
 const complete = [
   {
+    name: "SquareTheBear1",
+    work: "Animated Emotes"
+  },
+  {
+    name: "MrBrightside",
+    work: "Emote"
+  },
+  {
+    name: "Kamizard",
+    work: "Emote"
+  },
+  {
     name: "Arcadio",
     work: "Two Emotes & Illustrated Scene",
   },

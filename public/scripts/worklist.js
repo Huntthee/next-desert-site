@@ -1,14 +1,5 @@
 const working = [
   {
-    name: "SquareTheBear1",
-  },
-  {
-    name: "MrBrightside",
-  },
-  {
-    name: "Kamizard",
-  },
-  {
     name: "Chester Dwight",
   },
 ];

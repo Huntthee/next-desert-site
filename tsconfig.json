@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/scripts/waitlist.js", "public/scripts/waitlist.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "public/scripts/waitlist.tsx", "public/scripts/waitlist.ts, "pages/waitlist.js"x"],
   "exclude": ["node_modules"]
 }
