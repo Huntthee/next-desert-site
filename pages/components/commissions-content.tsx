@@ -11,9 +11,9 @@ export default function CommissionContent() {
           Animated Emotes
         </h2>
         <img
-          src="images/kami-emotes.jpg"
+          src="images/animated-emotes.gif"
           alt="A spread of emotes done for Kamizard on Twitch"
-          className="p-4 m-auto"
+          className="xl:px-8 lg:px-6 py-4 m-auto"
         />
         <h3 className="mb-2 xl:text-lg font-bold">$50 Each</h3>
         <hr />
