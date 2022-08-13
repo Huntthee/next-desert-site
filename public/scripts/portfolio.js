@@ -1,5 +1,35 @@
 const gallery = [
   {
+    alt: "Three mafia looking men posing for a photo",
+    src: "images/DeLaRosa.webp",
+    desc: "A GTA 'Family Portrait'"
+  },
+  {
+    alt: "A little dude holding a bottle and flashing the peace sign between the words Lil' Chos",
+    src: "images/lil-chos-green-label.webp",
+    desc: "A Label for Lil' Chos",
+  },
+  {
+    alt: "A little dude holding a bottle and flashing the peace sign between the words Lil' Chos",
+    src: "images/lil-chos-red-label.webp",
+    desc: "A Logo for Lil' Chos",
+  },
+  {
+    alt: "A young woman with curly red hair for Notorious_BLT's D&D Character",
+    src: "images/Moira_Greentin.webp",
+    desc: "A portrait for Notorious_BLT's D&D Character",
+  },
+  {
+    alt: "A smiling old man for Notorious_BLT's D&D Character",
+    src: "images/Harlan_Prammit.webp",
+    desc: "Another portrait for Notorious_BLT's D&D Character",
+  },
+  {
+    alt: "Portrait of Alii with praying hands",
+    src: "images/holy-alii.webp",
+    desc: "A Portrait of Alii",
+  },
+  {
     alt: "Emotes and Sub Badges for Bud_Leiser on Twitch",
     src: "images/bud-leiser-badges.webp",
     desc: "Emotes and Sub Badges for Bud_Leiser",
