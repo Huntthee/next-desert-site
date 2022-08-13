@@ -92,27 +92,6 @@ export default function CommissionContent() {
 
       <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
-          Twitch Stream Package
-        </h2>
-        <img
-          src="images/niladien-twitch-set.webp"
-          alt="A spread of content for Niladien's Twitch stream"
-          className="px-4 py-4 xl:px-8 xl:py-4 m-auto"
-        />
-        <h3 className="mb-2 xl:text-lg font-bold">$120</h3>
-        <hr />
-        <h3>A set of essential elements for your stream</h3>
-        <figure className="my-4 px-1">
-          <ul>
-            <li>1 Simple Overlay, 3 Scenes and 6 Panels.</li>
-            <li>Includes PNG files: (1920x1080)(320x100) etc.</li>
-          </ul>
-        </figure>
-        <hr />
-      </article>
-
-      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Subscriber & Bit Badges
         </h2>
         <img
@@ -142,7 +121,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Basic Scenes, Overlays or Banners
         </h2>
@@ -168,7 +147,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Illustrated Scene
         </h2>
@@ -195,7 +174,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Basic Panels
         </h2>
@@ -222,7 +201,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Illustrated Panels
         </h2>
@@ -249,7 +228,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
           Decorative Stream Schedule
         </h2>
@@ -269,29 +248,9 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Poster or Graphic
-        </h2>
-        <img
-          src="images/raft-with-friends.webp"
-          alt="Needs Image"
-          className="m-auto p-4"
-        />
-        <h3 className="mb-2 xl:text-lg font-bold">$30</h3>
-        <hr />
-        <figure className="my-4 px-1">
-          <ul>
-            <li>Includes: 2 Revisions.</li>
-            <li>PNG Files: (1920x1080) or requested size.</li>
-          </ul>
-        </figure>
-        <hr />
-      </article>
-
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
-        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-2/3 m-auto mt-2">
-          Profile Picture / Portrait
         </h2>
         <img
           src="images/raft-with-friends.webp"
