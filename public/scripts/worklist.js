@@ -4,6 +4,9 @@ const working = [
   },
   {
     name: "Atalya Moth"
+  },
+  {
+    name: "CheetahCpt"
   }
 ];
 
