@@ -1,9 +1,9 @@
 const waiting = [
   {
-    name: "Arcadio",
+    name: "TommyAtto",
   },
   {
-    name: "FranklinTurtz",
+    name: "Diego",
   },
 ];
 

@@ -1,11 +1,15 @@
 const complete = [
   {
+    name: "TommyYoza",
+    work: "Emote"
+  },
+  {
     name: "SmezzO",
-    work: "Illustration"
+    work: "Illustration",
   },
   {
     name: "Arcadio",
-    work: "Animated Emote"
+    work: "Animated Emote",
   },
   {
     name: "Inkuh1",
