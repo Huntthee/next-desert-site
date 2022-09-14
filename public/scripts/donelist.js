@@ -1,7 +1,27 @@
 const complete = [
   {
+    name: "SmezzO",
+    work: "Illustration"
+  },
+  {
+    name: "Arcadio",
+    work: "Animated Emote"
+  },
+  {
+    name: "Inkuh1",
+    work: "Illustration + Patches",
+  },
+  {
+    name: "Atalya Moth",
+    work: "Twitch Set",
+  },
+  {
+    name: "CheetahCpt",
+    work: "Illustration",
+  },
+  {
     name: "Chester Dwight",
-    work: "Regular & Animated Emotes"
+    work: "Regular & Animated Emotes",
   },
   {
     name: "SquareTheBear1",

@@ -23,6 +23,7 @@ export default function Waitlist() {
       <h1 className="text-4xl text-center font-bold my-6">Waitlist</h1>
 
       <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto xl:w-1/2">
+
         {/* Wait List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
@@ -59,6 +60,7 @@ export default function Waitlist() {
       </section>
 
       <section className="w-2/3 m-auto mb-7 bg-lorange p-4 xl:p-6">
+      
         {/* Complete List */}
         <div>
           <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t px-6 py-1 m-auto">
