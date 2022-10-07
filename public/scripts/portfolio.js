@@ -1,8 +1,33 @@
 const gallery = [
   {
+    alt: "A YouTube thumbnail artwork for the game Phasmaphobia",
+    src: "images/YT_THUMBNAILS_4.webp",
+    desc: "YouTube thumbnail artwork for a Phasmaphobia video",
+  },
+  {
+    alt: "A YouTube thumbnail artwork for the game Gang Beasts",
+    src: "images/YT_THUMBNAILS_3.webp",
+    desc: "YouTube thumbnail artwork for a series of Gang Beasts videos",
+  },
+  {
+    alt: "A YouTube thumbnail artwork for the game The Isle",
+    src: "images/YT_THUMBNAILS_2.webp",
+    desc: "YouTube thumbnail artwork for a tutorial video",
+  },
+  {
+    alt: "A YouTube thumbnail artwork for the game Gang Beasts",
+    src: "images/YT_THUMBNAILS_1.webp",
+    desc: "YouTube thumbnail artwork for a series of Gang Beasts videos",
+  },
+  {
+    alt: "Digital artwork of Caustic from Apex Legends wearing a hawaiian shirt and ready for vacation",
+    src: "images/caustic_1920.webp",
+    desc: "Apex Legends artwork of Caustic ready for vacation!",
+  },
+  {
     alt: "Three mafia looking men posing for a photo",
     src: "images/DeLaRosa.webp",
-    desc: "A GTA 'Family Portrait'"
+    desc: "A GTA 'Family Portrait'",
   },
   {
     alt: "A little dude holding a bottle and flashing the peace sign between the words Lil' Chos",
