@@ -1,8 +1,33 @@
 const gallery = [
   {
-    alt: "A set of emotes for ",
-    src: "images/.webp",
-    desc: "",
+    alt: "A halloween themed album cover for Kenny2x",
+    src: "images/PlutoGIF.gif",
+    desc: "A Halloween themed album cover for Kenny2x",
+  },
+  {
+    alt: "An album cover featuring Pluto for Kenny2x",
+    src: "images/PlutoWrld.webp",
+    desc: "An album cover for Kenny2x",
+  },
+  {
+    alt: "A YouTube thumbnail for Desert's Destruction Derby video",
+    src: "images/destruction-derby-thumbnail.webp",
+    desc: "YouTube thumbnail for my Destruction Derby 2 video",
+  },
+  {
+    alt: "GTA Undying gang group portrait",
+    src: "images/undying-gang-2.webp",
+    desc: "Starting Soon screen for Undying_King on Twitch",
+  },
+  {
+    alt: "A new smoking emote for TommyYoza on Twitch",
+    src: "images/tommy-emote-smoke.webp",
+    desc: "A new smoking emote for TommyYoza on Twitch",
+  },
+  {
+    alt: "A set of various emotes for Arcadio on Twitch",
+    src: "images/arcadio-emote-sheet.webp",
+    desc: "A set of emotes for Arcadio on Twitch",
   },
   {
     alt: "A new batch of turtle themed emotes for FranklinTurtz on Twitch",
@@ -48,6 +73,11 @@ const gallery = [
     alt: "A little dude holding a bottle and flashing the peace sign between the words Lil' Chos",
     src: "images/lil-chos-red-label.webp",
     desc: "A Logo for Lil' Chos",
+  },
+  {
+    alt: "A skeleton on siesta",
+    src: "images/diego-skeleton.webp",
+    desc: "Profile picture for NameLess",
   },
   {
     alt: "A young woman with curly red hair for Notorious_BLT's D&D Character",
