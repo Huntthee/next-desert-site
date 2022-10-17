@@ -1,5 +1,15 @@
 const gallery = [
   {
+    alt: "A set of emotes for ",
+    src: "images/.webp",
+    desc: "",
+  },
+  {
+    alt: "A new batch of turtle themed emotes for FranklinTurtz on Twitch",
+    src: "images/franklin-emote-sheet.webp",
+    desc: "A new set of emotes for FranklinTurtz on Twitch",
+  },
+  {
     alt: "A YouTube thumbnail artwork for the game Phasmaphobia",
     src: "images/YT_THUMBNAILS_4.webp",
     desc: "YouTube thumbnail artwork for a Phasmaphobia video",
