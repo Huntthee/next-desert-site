@@ -1,7 +1,27 @@
 const complete = [
   {
+    name: "Kenny2x",
+    work: "Album Covers"
+  },
+  {
+    name: "Undying_king",
+    work: "Starting Soon Screen"
+  },
+  {
+    name: "Diego",
+    work: "Profile Picture"
+  },
+  {
+    name: "FranklinTurtz",
+    work: "Emotes",
+  },
+  {
+    name: "Silver Kestrel Studios",
+    work: "YouTube Thumbnails",
+  },
+  {
     name: "TommyYoza",
-    work: "Emote"
+    work: "Emote",
   },
   {
     name: "SmezzO",

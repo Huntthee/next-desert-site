@@ -1,13 +1,7 @@
 const working = [
   {
-    name: "FranklinTurtz",
-  },
-  {
-    name: "Silver Kestrel Studios",
-  },
-  {
-    name: "DillThrill",
-  },
+    name: "KillerBee__TTV"
+  }
 ];
 
 if (working.length === 0) {

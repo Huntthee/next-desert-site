@@ -1,10 +1,5 @@
 const waiting = [
-  {
-    name: "TommyAtto",
-  },
-  {
-    name: "Diego",
-  },
+  
 ];
 
 if (waiting.length === 0) {
