@@ -22,13 +22,18 @@ export default function Waitlist() {
 
       <h1 className="text-4xl text-center font-bold my-6">Waitlist</h1>
 
-      <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto xl:w-1/2">
-
+      <section className="lg:flex xl:flex justify-around my-5 p-4 bg-lorange w-3/4 m-auto xl:w-3/4">
         {/* Wait List */}
-        <div>
-          <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
-            Waiting
-          </h3>
+
+        <div>   
+          <img
+            src="images/des-uwu.webp"
+            className="hidden xl:block xl:w-8 xl:rounded-full border-4 border-black m-auto"
+          ></img>
+          <p className="text-xl pb-4">
+            People who have reached out for a commission.
+          </p>
+        
           <ul className="bg-salmon p-3 rounded mb-3 xl:px-6">
             {waiting.map((client, index) => (
               <li
@@ -43,9 +48,13 @@ export default function Waitlist() {
 
         {/* Working List */}
         <div>
-          <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t p-1 m-auto">
-            Working
-          </h3>
+          <img
+            src="images/thumbs-up.webp"
+            className="hidden xl:block xl:w-8 xl:rounded-full border-4 border-black m-auto"
+          ></img>
+          <p className="text-xl pb-4">
+            Commissions I'm currently working on.
+          </p>
           <ul className="bg-salmon p-3 rounded mb-3  xl:px-6">
             {working.map((client, index) => (
               <li
@@ -60,12 +69,14 @@ export default function Waitlist() {
       </section>
 
       <section className="w-2/3 m-auto mb-7 bg-lorange p-4 xl:p-6">
-      
+        <img
+          className="hidden xl:block xl:w-8 xl:rounded-full border-4 border-black m-auto"
+          src="images/des-kiss.webp"
+        ></img>
+        <p className="text-xl text-center pb-4">All the fantastic people I've worked with!</p>
+
         {/* Complete List */}
         <div>
-          <h3 className="font-primary text-xl text-center pb-3 bg-salmon w-fit rounded-t px-6 py-1 m-auto">
-            Complete
-          </h3>
           <ul className="bg-salmon p-3 rounded max-h-10 overflow-y-scroll">
             {complete.map((client, index) => (
               <li
