@@ -1,15 +1,31 @@
 const complete = [
   {
+    name: "Killersassist",
+    work: "Panels",
+  },
+  {
+    name: "Arcadio",
+    work: "Emotes",
+  },
+  {
+    name: "cheetacpt",
+    work: "Background Image & Posters",
+  },
+  {
+    name: "KillerBee__TTV",
+    work: "Background Image",
+  },
+  {
     name: "Kenny2x",
-    work: "Album Covers"
+    work: "Album Covers",
   },
   {
     name: "Undying_king",
-    work: "Starting Soon Screen"
+    work: "Starting Soon Screen",
   },
   {
     name: "Diego",
-    work: "Profile Picture"
+    work: "Profile Picture",
   },
   {
     name: "FranklinTurtz",
