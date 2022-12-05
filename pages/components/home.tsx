@@ -1,15 +1,25 @@
 import { faTwitter, faTwitch, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
-import { faTshirt, faArrowDown, faA } from "@fortawesome/free-solid-svg-icons";
+import { faTshirt, faArrowDown, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 export default function HomeContent() {
   return (
     <>
-      <section id="home-section" className="flex-column text-center ">
-        <h1 className="text-6xl font-primary text-white mb-8 pt-8 lg:mb-7 lg:text-7xl xl:mb-8 xl:text-8xl">
+      <section id="home-section" className="flex-column text-center overflow-hidden">
+        <div className=" border-t-2 border-b-2 border-salmon bg-white w-full p-2 xl:rotate-45 xl:ml-[700px] xl:mt-8">
+          <p className="font-special font-bold text-3xl">
+            Support Artists Not AI!
+            <FontAwesomeIcon
+              icon={faHeart}
+              className="w-7 m-auto text-[#FF0000] animate-pulse"
+            />
+          </p>
+        </div>
+        <h1 className="text-6xl font-primary text-white mb-8 pt-8 lg:mb-7 lg:text-7xl xl:mb-8 xl:text-8xl xl:-mt-9">
           DesertWhale
         </h1>
+
         <div className="bg-white w-fit m-auto p-1 rounded-full">
           <p className="lg:text-lg">
             Commission Status: <strong className="text-highlight">Open</strong>
