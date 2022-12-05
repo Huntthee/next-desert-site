@@ -5,6 +5,26 @@ const gallery = [
     desc: "A Halloween themed album cover for Kenny2x",
   },
   {
+    alt: "Youtube thumbnail image for GTA Zombie halloween event",
+    src: "images/zombie-thumbnail.webp",
+    desc: "Halloween Event Youtube Thumbnail",
+  },
+  {
+    alt: "Another set of emotes for Arcadio",
+    src: "images/arcadio-emotes.webp",
+    desc: "More emotes for Arcadio!",
+  },
+  {
+    alt: "Background image for Bee",
+    src: "images/bee-background.webp",
+    desc: "Background image for Bee",
+  },
+  {
+    alt: "Dale & Moose giving a paw",
+    src: "images/dale-moose.webp",
+    desc: "Dale & Moose Banner",
+  },
+  {
     alt: "An album cover featuring Pluto for Kenny2x",
     src: "images/PlutoWrld.webp",
     desc: "An album cover for Kenny2x",
