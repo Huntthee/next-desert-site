@@ -7,6 +7,7 @@ module.exports = {
     screens: {
       'lg': '1024px', // Laptop
       'xl': '1280px', // Desktop
+      'xxl': '1920px', // Large Monitors
     },
     colors: {
       transparent: 'transparent',

@@ -7,7 +7,7 @@ export default function HomeContent() {
   return (
     <>
       <section id="home-section" className="flex-column text-center overflow-hidden">
-        <div className=" border-t-2 border-b-2 border-salmon bg-white w-full p-2 xl:rotate-45 xl:ml-[700px] xl:mt-8">
+        <div className=" border-t-2 border-b-2 border-salmon bg-white w-full p-2 lg:rotate-45 lg:ml-[400px] lg:mt-8 xl:ml-[500px] xl:mt-8 xxl:ml-[800px]">
           <p className="font-special font-bold text-3xl">
             Support Artists Not AI!
             <FontAwesomeIcon
@@ -16,7 +16,7 @@ export default function HomeContent() {
             />
           </p>
         </div>
-        <h1 className="text-6xl font-primary text-white mb-8 pt-8 lg:mb-7 lg:text-7xl xl:mb-8 xl:text-8xl xl:-mt-9">
+        <h1 className="text-6xl font-primary text-white mb-8 pt-8 lg:mb-7 lg:text-7xl lg:-mt-9 xl:mb-8 xl:text-8xl xl:-mt-9">
           DesertWhale
         </h1>
 
