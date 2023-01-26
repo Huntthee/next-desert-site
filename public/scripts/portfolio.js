@@ -1,5 +1,10 @@
 const gallery = [
   {
+    alt: "ItsGuy sitting at his computer desk.",
+    src: "images/ItsGuyBackground.webp",
+    desc: "Stream Overlay Scene for ItsGuy"
+  },
+  {
     alt: "Portrait of Pluto and Easter holding guns",
     src: "images/vwhills.webp",
     desc: "Album cover art for Kenny2x",
