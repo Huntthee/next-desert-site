@@ -1,5 +1,13 @@
 const complete = [
   {
+    name: "ItsGuy",
+    work: "Starting Soon Scene",
+  },
+  {
+    name: "rurouni_aly",
+    work: "Portrait/Profile Picture",
+  },
+  {
     name: "Killersassist",
     work: "Panels",
   },

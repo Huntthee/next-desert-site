@@ -1,5 +1,20 @@
 const gallery = [
   {
+    alt: "Portrait of Pluto and Easter holding guns",
+    src: "images/vwhills.webp",
+    desc: "Album cover art for Kenny2x",
+  },
+  {
+    alt: "A close-up of Pluto's face and hand holding a pill",
+    src: "images/Pushin_1.webp",
+    desc: "Album cover art for Kenny2x",
+  },
+  {
+    alt: "A personalized Loki cosplay portrait",
+    src: "images/Loki_Illustration2.webp",
+    desc: "A Loki cosplay portrait for rurouni_aly!",
+  },
+  {
     alt: "A halloween themed album cover for Kenny2x",
     src: "images/PlutoGIF.gif",
     desc: "A Halloween themed album cover for Kenny2x",
