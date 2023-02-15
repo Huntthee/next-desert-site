@@ -22,7 +22,7 @@ export default function CommissionContent() {
           className="px-4 py-4 xl:px-8 xl:py-4  m-auto"
         />
         <h3 className="mb-2 xl:text-lg font-bold">
-          Regular $35ea | Animated $50ea
+          Regular $25ea | Animated $50ea
         </h3>
         <hr />
         <figure className="my-4 px-1">
@@ -45,7 +45,7 @@ export default function CommissionContent() {
           className="m-auto px-4 py-4 xl:px-8 xl:py-4 "
         />
         <h3 className="mb-2 xl:text-lg font-bold">
-          S $35 | M $60 | L $120 - $150
+          S $35 | M $60 | L $100 - $120
         </h3>
         <hr />
         <figure className="my-4 px-1">
@@ -90,17 +90,17 @@ export default function CommissionContent() {
           className="m-auto p-4"
         />
         <h3 className="mb-2 xl:text-lg font-bold">
-          1x $20-30 || 3x $75 || 6x $150
+          1x $15-25 || 3x $50 || 6x $100
         </h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
-            <h4>Unique Styles $30/ea</h4>
+            <h4>Unique Styles $25/ea</h4>
             <li>
               Each badge is different from the last with changes in line art or
               completely new images.
             </li>
-            <h4>Recolor Style $20/ea</h4>
+            <h4>Recolor Style $15/ea</h4>
             <li>
               Badges vary in appearance with color changes, but the line art
               remains the same.
@@ -146,7 +146,7 @@ export default function CommissionContent() {
           alt="A starting soon scene featuring the pokemon blastoise and gengar"
           className="m-auto p-4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">$100 - $200 / Scene</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$60 - $150 / Scene</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
@@ -203,7 +203,7 @@ export default function CommissionContent() {
           alt="Wonderfully colourful stream schedules in a variety of styles"
           className="m-auto p-4"
         />
-        <h3 className="mb-2 xl:text-lg font-bold">$40</h3>
+        <h3 className="mb-2 xl:text-lg font-bold">$35</h3>
         <hr />
         <figure className="my-4 px-1">
           <ul>
