@@ -1,8 +1,13 @@
 const gallery = [
   {
+    alt: "Pluto with girl at the fair.",
+    src: "images/foreign_hoe.webp",
+    desc: "Album Cover Art for Kenny2x",
+  },
+  {
     alt: "ItsGuy sitting at his computer desk.",
     src: "images/ItsGuyBackground.webp",
-    desc: "Stream Overlay Scene for ItsGuy"
+    desc: "Stream Overlay Scene for ItsGuy",
   },
   {
     alt: "Portrait of Pluto and Easter holding guns",
@@ -13,6 +18,11 @@ const gallery = [
     alt: "A close-up of Pluto's face and hand holding a pill",
     src: "images/Pushin_1.webp",
     desc: "Album cover art for Kenny2x",
+  },
+  {
+    alt: "Pluto and friend gaze up at the clouds of smoke.",
+    src: "images/DraftPluto3.webp",
+    desc: "Album Cover Art for Kenny2x",
   },
   {
     alt: "A personalized Loki cosplay portrait",
