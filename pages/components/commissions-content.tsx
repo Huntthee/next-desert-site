@@ -6,13 +6,13 @@ export default function CommissionContent() {
         policy if you're seeking a commission.
       </p>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
         <video autoPlay loop className="xl:p-6">
           <source src="images/emotes_comm_sheets.mp4" type="video/mp4" />
         </video>
       </article>
 
-      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mt-7">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-1/2 m-auto mt-2">
           Emotes
         </h2>
@@ -35,7 +35,7 @@ export default function CommissionContent() {
         <hr />
       </article>
 
-      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
+      <article className="bg-lorange p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
         <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-3/4 xl:w-2/3 m-auto mt-2">
           Profile Picture / Portrait / Illustration
         </h2>
@@ -54,6 +54,27 @@ export default function CommissionContent() {
             <li>Visual references are required for portraits.</li>
             <li>Includes 1 custom Illustration, 2 Revisions</li>
             <li>*PNG files</li>
+          </ul>
+        </figure>
+        <hr />
+      </article>
+
+      <article className="bg-salmon p-2 mx-1 rounded lg:mx-7 xl:mx-9 xl:mb-8">
+        <h2 className="font-bold text-xl xl:pb-2 bg-white rounded-full w-3/4 xl:w-2/3 m-auto mt-2">
+          Album Covers
+        </h2>
+        <img
+          src="images/vwhills.webp"
+          alt="An album cover for Easter x Pluto"
+          className="m-auto px-4 py-4 xl:px-8 xl:py-4 "
+        />
+        <h3 className="mb-2 xl:text-lg font-bold">
+          $60 
+        </h3>
+        <hr />
+        <figure className="my-4 px-1">
+          <ul>
+            <li>Visual references are appreciated.</li>
           </ul>
         </figure>
         <hr />
