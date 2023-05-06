@@ -1,5 +1,65 @@
 const complete = [
   {
+    name: "Cheetahcpt",
+    work: "Various Poster/Ads",
+  },
+  {
+    name: "Kenny2x",
+    work: "Album Cover",
+  },
+  {
+    name: "Kenny2x",
+    work: "Album Cover",
+  },
+  {
+    name: "Arcadio",
+    work: "Emotes",
+  },
+  {
+    name: "Mike Hoch",
+    work: "LD Logo",
+  },
+  {
+    name: "Luci",
+    work: "Album Cover",
+  },
+  {
+    name: "Crxin",
+    work: "Okami Group Portrait",
+  },
+  {
+    name: "Kenny 2x",
+    work: "Album Cover",
+  },
+  {
+    name: "RayRay",
+    work: "Logo",
+  },
+  {
+    name: "Crxin",
+    work: "VHT Group Portrait",
+  },
+  {
+    name: "Kenny 2x",
+    work: "Album Cover",
+  },
+  {
+    name: "SilverKestrelStudios",
+    work: "Chibis",
+  },
+  {
+    name: "Prxmetheus",
+    work: "Emotes",
+  },
+  {
+    name: "Notorious_BLT",
+    work: "Emotes",
+  },
+  {
+    name: "Undying_King",
+    work: "Reactive Images",
+  },
+  {
     name: "ItsGuy",
     work: "Starting Soon Scene",
   },
