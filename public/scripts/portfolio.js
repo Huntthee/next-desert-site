@@ -1,5 +1,30 @@
 const gallery = [
   {
+    alt: "Portrait of Pluto and V",
+    src: "images/PLU_x_VI_SPACE.webp",
+    desc: "Portrait of Pluto and V",
+  },
+  {
+    alt: "Pongo and Gunn",
+    src: "images/pongo-and-gunn.webp",
+    desc: "Pongo and Gunn",
+  },
+  {
+    alt: "Animated LD Logo",
+    src: "images/animated-ld-logo.gif",
+    desc: "Animated LD Logo",
+  },
+  {
+    alt: "Regular LD Logo",
+    src: "images/ld-logo.webp",
+    desc: "Regular LD Logo",
+  },
+  {
+    alt: "Group Portrait for the VHT Gang",
+    src: "images/VHT_Draft.webp",
+    desc: "VHT Group Portrait",
+  },
+  {
     alt: "Pluto with girl at the fair.",
     src: "images/foreign_hoe.webp",
     desc: "Album Cover Art for Kenny2x",
