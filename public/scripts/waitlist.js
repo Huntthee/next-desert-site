@@ -8,10 +8,6 @@ const waiting = [
     work: "Album Cover",
   },
   {
-    name: "Lauren",
-    work: "Profile Pic, Banner & Emotes",
-  },
-  {
     name: "Maddie",
     work: "Tattoo design",
   },

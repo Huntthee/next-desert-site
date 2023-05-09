@@ -1,5 +1,8 @@
 const working = [
-  
+  {
+    name: "Lauren",
+    work: "Profile Pic, Banner & Emotes",
+  },
 ];
 
 if (working.length === 0) {
