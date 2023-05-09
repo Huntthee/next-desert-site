@@ -3,7 +3,7 @@ const working = [
 ];
 
 if (working.length === 0) {
-  working.push({name: "I'm Taking a little break, back at it soon!"})
+  working.push({name: "Nobody!"})
 }
 
 export default working;
