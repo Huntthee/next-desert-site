@@ -43,11 +43,9 @@ export default function PolicyContent() {
             original commission fee.
           </li>
           <li className="xl:ml-4">
-            Two revisions are included for every piece of work, one after the
-            preliminary design and one at the final stages of design. Any
-            additional, excessive changes will be charged by the hour @ $20/hr.
-            I send drafts during this process for revision purposes only. Please
-            do not save or upload them to social media.
+            Two revisions are included for every piece of work, one after the preliminary design and one at the final stages of design.
+            Any additional, excessive changes will start at $12/each depending on complexity. I send drafts during this process for revision purposes only.
+            Please do not save or upload them to social media.
           </li>
 
           <li className="xl:ml-4">
